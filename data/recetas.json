@@ -264,5 +264,195 @@
       "Extender una capa de arroz sobre el alga y agregar el pescado, el aguacate y el pepino.",
       "Enrollar el sushi y cortarlo en porciones."
     ]
-  }
+  },
+
+  {
+  "nombre": "Milanesa Napolitana",
+  "duracion": "45 min",
+  "porciones": "4",
+  "pais": "Argentina",
+  "tipo": "normal",
+  "momento": "Almuerzo/Cena",
+  "ingredientes": {
+    "carne": "4 filetes de ternera",
+    "pan rallado": "2 tazas",
+    "huevos": "3",
+    "jamón cocido": "4 fetas",
+    "queso mozzarella": "200 g",
+    "salsa de tomate": "1 taza",
+    "orégano": "1 cucharadita",
+    "aceite": "para freír"
+  },
+  "cantidad": {
+    "carne": "4 filetes",
+    "pan rallado": "2 tazas",
+    "huevos": "3 unidades",
+    "jamón cocido": "4 fetas",
+    "queso mozzarella": "200 gramos",
+    "salsa de tomate": "1 taza",
+    "orégano": "1 cucharadita"
+  },
+  "paso_a_paso": [
+    "Empanar los filetes pasándolos por huevo batido y pan rallado.",
+    "Freír en aceite caliente hasta dorar.",
+    "Colocar en una placa para horno.",
+    "Cubrir cada milanesa con salsa de tomate, jamón y queso.",
+    "Gratinar en horno a 180°C hasta que el queso se derrita.",
+    "Espolvorear orégano al servir."
+  ]
+},
+
+{
+  "nombre": "Arepas",
+  "duracion": "30 min",
+  "porciones": "6",
+  "pais": "Colombia",
+  "tipo": "vegetariana",
+  "momento": "Desayuno/Cena",
+  "ingredientes": {
+    "harina de maíz": "2 tazas",
+    "agua": "2 tazas",
+    "sal": "1 cucharadita",
+    "mantequilla": "2 cucharadas",
+    "queso fresco": "opcional"
+  },
+  "cantidad": {
+    "harina de maíz": "2 tazas",
+    "agua": "2 tazas",
+    "sal": "1 cucharadita",
+    "mantequilla": "2 cucharadas"
+  },
+  "paso_a_paso": [
+    "Mezclar la harina con agua y sal hasta formar una masa suave.",
+    "Amasar por 5 minutos y formar bolitas.",
+    "Aplanar cada bolita para formar discos de 1 cm de grosor.",
+    "Cocinar en sartén engrasada a fuego medio hasta dorar ambos lados.",
+    "Untar con mantequilla y rellenar con queso si se desea."
+  ]
+},
+
+{
+  "nombre": "Pasta Carbonara",
+  "duracion": "25 min",
+  "porciones": "4",
+  "pais": "Italia",
+  "tipo": "normal",
+  "momento": "Cena",
+  "ingredientes": {
+    "spaghetti": "400 g",
+    "panceta": "200 g",
+    "huevos": "3 yemas",
+    "queso pecorino": "100 g",
+    "pimienta negra": "al gusto",
+    "sal": "para el agua"
+  },
+  "cantidad": {
+    "spaghetti": "400 gramos",
+    "panceta": "200 gramos",
+    "huevos": "3 yemas",
+    "queso pecorino": "100 gramos"
+  },
+  "paso_a_paso": [
+    "Cocinar la pasta al dente en agua con sal.",
+    "Dorar la panceta en sartén sin aceite.",
+    "Batir las yemas con queso rallado y pimienta.",
+    "Escurrir la pasta y mezclar inmediatamente con la panceta.",
+    "Fuera del fuego, incorporar la mezcla de huevo revolviendo rápido.",
+    "Servir con más queso y pimienta."
+  ]
+},
+
+{
+  "nombre": "Ramen de Cerdo",
+  "duracion": "2 horas",
+  "porciones": "4",
+  "pais": "Japon",
+  "tipo": "normal",
+  "momento": "Almuerzo/Cena",
+  "ingredientes": {
+    "fideos ramen": "400 g",
+    "lomo de cerdo": "500 g",
+    "huevos": "4",
+    "caldo de pollo": "1.5 litros",
+    "salsa de soja": "1/2 taza",
+    "jengibre": "3 rodajas",
+    "ajo": "2 dientes",
+    "cebollín": "1/2 taza",
+    "brotes de bambú": "1/2 taza"
+  },
+  "cantidad": {
+    "fideos ramen": "400 gramos",
+    "lomo de cerdo": "500 gramos",
+    "huevos": "4 unidades",
+    "caldo de pollo": "1.5 litros"
+  },
+  "paso_a_paso": [
+    "Cocinar el cerdo en caldo con soja, jengibre y ajo por 1.5 horas.",
+    "Hervir huevos por 7 minutos, enfriar y pelar.",
+    "Cocinar los fideos según paquete.",
+    "Colocar fideos en tazones, agregar caldo colado.",
+    "Acompañar con cerdo en rodajas, huevos partidos y vegetales."
+  ]
+},
+
+{
+  "nombre": "Hamburguesa Clásica",
+  "duracion": "30 min",
+  "porciones": "4",
+  "pais": "Estados Unidos",
+  "tipo": "normal",
+  "momento": "Almuerzo/Cena",
+  "ingredientes": {
+    "carne molida": "500 g",
+    "pan para hamburguesas": "4",
+    "queso cheddar": "4 fetas",
+    "cebolla morada": "1/2",
+    "lechuga": "4 hojas",
+    "tomate": "1",
+    "salsa kétchup": "al gusto",
+    "mostaza": "al gusto"
+  },
+  "cantidad": {
+    "carne molida": "500 gramos",
+    "pan para hamburguesas": "4 unidades",
+    "queso cheddar": "4 fetas",
+    "cebolla morada": "1/2 unidad"
+  },
+  "paso_a_paso": [
+    "Formar 4 hamburguesas con la carne y sazonar.",
+    "Cocinar a la parrilla o sartén 4 min por lado.",
+    "Agregar queso los últimos 30 segundos.",
+    "Tostar ligeramente los panes.",
+    "Armar con lechuga, tomate, cebolla y salsas."
+  ]
+},
+
+{
+  "nombre": "Crème Brûlée",
+  "duracion": "3 horas (incluye enfriar)",
+  "porciones": "6",
+  "pais": "Francia",
+  "tipo": "vegetariana",
+  "momento": "Postre",
+  "ingredientes": {
+    "crema de leche": "500 ml",
+    "yemas de huevo": "6",
+    "azúcar": "100 g + extra para caramelizar",
+    "vainilla": "1 vaina",
+    "sal": "1 pizca"
+  },
+  "cantidad": {
+    "crema de leche": "500 ml",
+    "yemas de huevo": "6 unidades",
+    "azúcar": "100 gramos"
+  },
+  "paso_a_paso": [
+    "Calentar crema con vainilla hasta casi hervir.",
+    "Batir yemas con azúcar hasta claras.",
+    "Incorporar crema caliente a las yemas lentamente.",
+    "Colocar en moldes y cocinar a baño María 40 min a 150°C.",
+    "Enfriar 2 horas en nevera.",
+    "Espolvorear azúcar y caramelizar con soplete antes de servir."
+  ]
+}
 ]

@@ -1,0 +1,68 @@
+// Variables para colores (ajusta según tu tema)
+$color-fondo: #343a40;
+$color-texto: #fff;
+$color-borde: #6c757d;
+$color-destacado: #ffc107;
+$color-placeholder: #adb5bd;
+
+// Contenedor principal
+.buscador-filtros {
+  background-color: $color-fondo;
+  padding: 1.5rem 0;
+
+  .row {
+    justify-content: center;
+  }
+
+  // Barra de búsqueda
+  #buscador {
+    background-color: $color-fondo;
+    color: $color-texto;
+    border: 1px solid $color-borde;
+    margin-bottom: 1rem;
+    width: 100%;
+
+    &::placeholder {
+      color: $color-placeholder;
+    }
+
+    &:focus {
+      border-color: $color-destacado;
+      box-shadow: 0 0 0 0.25rem rgba($color-destacado, 0.25);
+    }
+  }
+
+  // Selectores de filtros
+  .filtro {
+    background-color: $color-fondo;
+    color: $color-texto;
+    border-color: $color-borde;
+    max-width: 200px;
+    transition: all 0.3s;
+
+    &:hover {
+      border-color: $color-destacado !important;
+    }
+  }
+
+  // Botón de filtrar
+  #btn-filtrar {
+    min-width: 100px;
+    font-weight: bold;
+    background-color: $color-destacado;
+    border: none;
+    color: darken($color-fondo, 10%);
+
+    &:hover {
+      background-color: darken($color-destacado, 10%);
+    }
+  }
+
+  // Estilos para móvil
+  @media (max-width: 768px) {
+    .filtro, #btn-filtrar {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+}
