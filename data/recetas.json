@@ -1,22 +1,26 @@
 [
-
   {
-    "id": 1,
     "nombre": "Pizza Margarita",
-    "imagen": "../img/pizza margarita.jpg",
     "duracion": "45 min",
-    "porciones": "2",
+    "porciones": "4 (grandes)",
     "pais": "Italia",
     "tipo": "Vegetariana",
     "momento": "Cena/Almuerzo",
-    "ingredientes": [
-      "250g harina",
-      "100ml agua",
-      "5g levadura",
-      "1 tomate",
-      "100g mozzarella"
-    ],
-    "pasos": [
+    "ingredientes": {
+      "harina": "250g",
+      "agua": "100ml",
+      "levadura": "5g",
+      "tomate": "1",
+      "mozzarella": "100g"
+    },
+    "cantidad": {
+      "harina": "250g",
+      "agua": "100ml",
+      "levadura": "5g",
+      "tomate": "1",
+      "mozzarella": "100g"
+    },
+    "paso_a_paso": [
       "Precalentar el horno a 220°C.",
       "Mezclar la harina con levadura y agua.",
       "Amasar y dejar reposar 30 minutos.",
@@ -26,52 +30,239 @@
   },
 
   {
-    "id": 2,
     "nombre": "Paella",
-    "imagen": "../img/paella española.jpg",
     "duracion": "60 min",
     "porciones": "4 personas",
     "pais": "España",
     "tipo": "Normal",
     "momento": "Cena/Almuerzo",
-    "ingredientes":[
-            "400g arroz", "1 pimiento rojo", "200g pollo", "200g mariscos",
-    "100g guisantes", "1 tomate", "1 diente de ajo", "Caldo de pollo",
-    "Azafrán", "Aceite de oliva", "Sal"
-    ],
-      "pasos": [
-    "Sofreír el ajo y el pimiento.",
-    "Agregar el pollo y luego los mariscos.",
-    "Incorporar el tomate y sofreír.",
-    "Añadir arroz, caldo, azafrán y guisantes.",
-    "Cocinar hasta que se absorba el líquido."
-  ]
+    "ingredientes": {
+      "arroz": "400g",
+      "pimiento rojo": "1",
+      "pollo": "200g",
+      "mariscos": "200g",
+      "guisantes": "100g",
+      "tomate": "1",
+      "ajo": "1 diente",
+      "caldo de pollo": "al gusto",
+      "azafrán": "al gusto",
+      "aceite de oliva": "al gusto",
+      "sal": "al gusto"
+    },
+    "cantidad": {
+      "arroz": "400g",
+      "pimiento rojo": "1",
+      "pollo": "200g",
+      "mariscos": "200g",
+      "guisantes": "100g",
+      "tomate": "1",
+      "ajo": "1 diente",
+      "caldo de pollo": "al gusto",
+      "azafrán": "al gusto",
+      "aceite de oliva": "al gusto",
+      "sal": "al gusto"
+    },
+    "paso_a_paso": [
+      "Sofreír el ajo y el pimiento.",
+      "Agregar el pollo y luego los mariscos.",
+      "Incorporar el tomate y sofreír.",
+      "Añadir arroz, caldo, azafrán y guisantes.",
+      "Cocinar hasta que se absorba el líquido."
+    ]
   },
-  
+
   {
-    "id": 3,
     "nombre": "Tortilla Española",
-    "imagen": "../img/tortilla española.jpg",
     "duracion": "45 min",
     "porciones": "6 (grandes)",
     "pais": "España",
     "tipo": "Vegetariana",
     "momento": "Cena/Almuerzo",
-    "ingredientes":[
-            "5 papas medianas (aprox. 700g)", "1 cebolla grande", "6 huevos", "Aceite de oliva (aprox. 200 ml para freír)", "Sal al gusto"
-    ],
-      "pasos": [
-    "Pelar y cortar las papas en rodajas finas o en cubitos pequeños.",
-    "Picar la cebolla en julianas.",
-    "En una sartén grande, calienta abundante aceite de oliva y fríe las papas y la cebolla a fuego medio, removiendo de vez en cuando, hasta que estén blandas, no crujientes",
-    "Escurre el exceso de aceite y reserva las papas en un bol.",
-    "Bate los huevos con una pizca de sal en otro recipiente.",
-    "Añade las papas al bol con los huevos batidos y mezcla suavemente para que no se rompan demasiado.",
-    "En una sartén limpia, calienta un poco del aceite usado y vierte la mezcla.",
-    "Cocina a fuego medio-bajo durante unos 5–7 minutos por un lado, moviendo ligeramente la sartén para que no se pegue.",
-    "Usa un plato grande para darle la vuelta a la tortilla y cocínala del otro lado unos 3–5 minutos más, según qué tan jugosa la prefieras.",
-    "Retira del fuego, deja reposar unos minutos y sirve caliente o a temperatura ambiente."
-  ]
-  }
+    "ingredientes": {
+      "papas": "5 medianas (aprox. 700g)",
+      "cebolla": "1 grande",
+      "huevos": "6",
+      "aceite de oliva": "aprox. 200 ml para freír",
+      "sal": "al gusto"
+    },
+    "cantidad": {
+      "papas": "5 medianas (aprox. 700g)",
+      "cebolla": "1 grande",
+      "huevos": "6",
+      "aceite de oliva": "aprox. 200 ml para freír",
+      "sal": "al gusto"
+    },
+    "paso_a_paso": [
+      "Pelar y cortar las papas en rodajas finas o en cubitos pequeños.",
+      "Picar la cebolla en julianas.",
+      "Freír las papas y cebolla en aceite hasta que estén blandas.",
+      "Escurrir y mezclar con huevos batidos y sal.",
+      "Cocinar la mezcla en sartén por ambos lados.",
+      "Servir caliente o a temperatura ambiente."
+    ]
+  },
 
+  {
+    "nombre": "Asado",
+    "duracion": "90 min",
+    "porciones": "6-8",
+    "pais": "Argentina",
+    "tipo": "normal",
+    "momento": "Almuerzo/Cena",
+    "ingredientes": {
+      "carne de res": "2 kg",
+      "chorizo": "500 g",
+      "morcilla": "500 g",
+      "sal": "al gusto",
+      "chimichurri": "al gusto"
+    },
+    "cantidad": {
+      "carne de res": "2 kg",
+      "chorizo": "500 g",
+      "morcilla": "500 g",
+      "sal": "al gusto",
+      "chimichurri": "al gusto"
+    },
+    "paso_a_paso": [
+      "Preparar el fuego y dejar que las brasas se formen.",
+      "Condimentar la carne con sal y chimichurri.",
+      "Asar la carne en la parrilla, comenzando por los cortes más grandes.",
+      "Dar vuelta la carne cada 20 minutos aproximadamente.",
+      "Servir la carne con el chorizo y la morcilla, acompañados de ensalada y pan."
+    ]
+  },
+
+  {
+    "nombre": "Ceviche",
+    "duracion": "60-75 min",
+    "porciones": "4-6",
+    "pais": "Peru",
+    "tipo": "normal",
+    "momento": "Cena/Almuerzo",
+    "ingredientes": {
+      "pescado": "500 g",
+      "limón": "5",
+      "cebolla": "1",
+      "cilantro": "al gusto",
+      "sal": "al gusto",
+      "ají": "al gusto"
+    },
+    "cantidad": {
+      "pescado": "500 g",
+      "limón": "5",
+      "cebolla": "1",
+      "cilantro": "al gusto",
+      "sal": "al gusto",
+      "ají": "al gusto"
+    },
+    "paso_a_paso": [
+      "Cortar el pescado en cubos y colocarlo en un tazón.",
+      "Exprimir el jugo de los limones sobre el pescado.",
+      "Agregar la cebolla cortada en juliana, el cilantro picado, la sal y el ají.",
+      "Mezclar bien y dejar marinar durante 10-15 minutos.",
+      "Servir el ceviche acompañado de camote y choclo."
+    ]
+  },
+
+  {
+    "nombre": "Bandeja Paisa",
+    "duracion": "90 min",
+    "porciones": "4-6",
+    "pais": "Colombia",
+    "tipo": "normal",
+    "momento": "Almuerzo",
+    "ingredientes": {
+      "carne molida": "500 g",
+      "frijoles": "2 tazas",
+      "chorizo": "2",
+      "arepas": "2",
+      "plátano": "1",
+      "aguacate": "1",
+      "huevo": "2",
+      "sal": "al gusto"
+    },
+    "cantidad": {
+      "carne molida": "500 g",
+      "frijoles": "2 tazas",
+      "chorizo": "2",
+      "arepas": "2",
+      "plátano": "1",
+      "aguacate": "1",
+      "huevo": "2",
+      "sal": "al gusto"
+    },
+    "paso_a_paso": [
+      "Cocinar los frijoles en agua con sal hasta que estén tiernos.",
+      "Freír la carne molida en una sartén con sal.",
+      "En otra sartén, cocinar el chorizo y el plátano.",
+      "Freír los huevos y preparar las arepas.",
+      "Servir la bandeja con todos los ingredientes, acompañada de aguacate."
+    ]
+  },
+
+  {
+    "nombre": "Tacos",
+    "duracion": "30 min",
+    "porciones": "4-6",
+    "pais": "Mexico",
+    "tipo": "normal",
+    "momento": "Cena",
+    "ingredientes": {
+      "tortillas": "12",
+      "carne": "500 g",
+      "cebolla": "1",
+      "cilantro": "al gusto",
+      "limón": "2",
+      "sal": "al gusto",
+      "ají": "al gusto"
+    },
+    "cantidad": {
+      "tortillas": "12",
+      "carne": "500 g",
+      "cebolla": "1",
+      "cilantro": "al gusto",
+      "limón": "2",
+      "sal": "al gusto",
+      "ají": "al gusto"
+    },
+    "paso_a_paso": [
+      "Cocinar la carne en una sartén con sal.",
+      "Calentar las tortillas en un comal.",
+      "En cada tortilla, colocar un poco de carne y agregar la cebolla picada, el cilantro, el jugo de limón y el ají."
+    ]
+  },
+  
+  {
+    "nombre": "Sushi",
+    "duracion": "60 min",
+    "porciones": "4-6",
+    "pais": "Japon",
+    "tipo": "normal",
+    "momento": "Cena/Almuerzo",
+    "ingredientes": {
+      "arroz": "2 tazas",
+      "vinagre": "1/4 de taza",
+      "algas nori": "4",
+      "pescado": "300 g",
+      "aguacate": "1",
+      "pepino": "1",
+      "sal": "al gusto"
+    },
+    "cantidad": {
+      "arroz": "2 tazas",
+      "vinagre": "1/4 de taza",
+      "algas nori": "4",
+      "pescado": "300 g",
+      "aguacate": "1",
+      "pepino": "1",
+      "sal": "al gusto"
+    },
+    "paso_a_paso": [
+      "Cocinar el arroz y dejar enfriar.",
+      "Mezclar el vinagre con el arroz y sazonar con sal.",
+      "Colocar una hoja de alga nori sobre una esterilla de bambú.",
+      "Extender una capa de arroz sobre el alga y agregar el pescado, el aguacate y el pepino.",
+      "Enrollar el sushi y cortarlo en porciones."
+    ]
+  }
 ]

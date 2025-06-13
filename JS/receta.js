@@ -27,3 +27,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     <ol>${receta.pasos.map(p => `<li>${p}</li>`).join("")}</ol>
   `;
 });
+fetch('recetas.json')
+  .then(res => res.json())
+  .then(data => {
+    console.log(data); // acá tenés acceso al array de recetas
+  });
+
