@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Recetas del mundo: Encuentra recetas deliciosas de todo el planeta." />
+  <meta name="keywords" content="recetas, comida, internacional, vegana, vegetariana, desayuno, cena, almuerzo" />
+  <meta name="author" content="TuNombre" />
+  <title>Recetas del Mundo</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="JS/main.js"></script>
+</head>
+
+<body class="bg-light text-dark">
+
+  <!-- HEADER -->
+  <header class="bg-dark text-white text-center py-4">
+    <a href="index.html" class="titulo-main"><h1 class="mb-3">Recetas del Mundo</h1></a>
+    <div class="d-flex flex-wrap justify-content-center gap-2">
+      
+        <!-- Momentos -->
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          Todos los momentos
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Desayuno</a></li>
+          <li><a class="dropdown-item" href="#">Almuerzo</a></li>
+          <li><a class="dropdown-item" href="#">Cena</a></li>
+          <li><a class="dropdown-item" href="#">Merienda</a></li>
+          <li><a class="dropdown-item" href="#">Postre</a></li>
+        </ul>
+      </div>
+
+      <!-- Países -->
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          Todos los países
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Italia</a></li>
+          <li><a class="dropdown-item" href="#">Japón</a></li>
+          <li><a class="dropdown-item" href="#">México</a></li>
+          <li><a class="dropdown-item" href="#">Argentina</a></li>
+          <li><a class="dropdown-item" href="#">Peru</a></li>
+          <li><a class="dropdown-item" href="#">Colombia</a></li>
+          <li><a class="dropdown-item" href="#">España</a></li>
+        </ul>
+      </div>
+
+      <!-- Tipos -->
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          Todos los tipos
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Vegana</a></li>
+          <li><a class="dropdown-item" href="#">Vegetariana</a></li>
+          <li><a class="dropdown-item" href="#">Normal</a></li>
+          <li><a class="dropdown-item" href="#">Sin TACC</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- RECETAS -->
+  <main class="container my-5">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+      <!-- PIZZA MARGARITA -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="/img/pizza margarita.jpg" class="card-img-top" alt="Pizza Margarita" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Pizza Margarita</h5>
+            <p class="card-text">Origen: Italia · Tipo: Vegetariana · Cena/Almuerzo</p>
+            <a href="/RECETAS/PizzaMargarita.html" class="btn btn-dark mt-auto">Ver receta</a>
+          </div>
+        </div>
+      </div>
+            <!-- PAELLA -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="/img/paella española.jpg" class="card-img-top" alt="Paella Española" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Paella Española</h5>
+            <p class="card-text">Origen: España · Tipo: Normal · Cena/Almuerzo</p>
+            <a href="/RECETAS/Paella.html" class="btn btn-dark mt-auto">Ver receta</a>
+          </div>
+        </div>
+      </div>
+              <!-- TORTILLA ESPAÑOLA -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="/img/tortilla española.jpg" class="card-img-top" alt="Tortilla Española" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Tortilla Española</h5>
+            <p class="card-text">Origen: España · Tipo: Vegetariana · Cena/Almuerzo</p>
+            <a href="/RECETAS/TortillaEspañola.html" class="btn btn-dark mt-auto">Ver receta</a>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 Recetas del Mundo</p>
+  </footer>
+</body>
+</html>

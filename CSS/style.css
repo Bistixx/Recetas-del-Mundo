@@ -1,0 +1,60 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+header {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+.card {
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card-title {
+  color: #000;
+}
+
+.btn-dark {
+  background-color: #000;
+  border: none;
+}
+
+.btn-dark:hover {
+  background-color: #333;
+}
+
+footer {
+  background-color: #eaeaea;
+  color: #333;
+}
+
+.receta-container {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.receta-container h2, .receta-container h4 {
+  color: #ffffff;
+}
+.receta-container ul, .receta-container ol {
+  padding-left: 1.5rem;
+}
+.receta-container a.btn {
+  border-color: #999;
+  color: #ccc;
+}
+.receta-container a.btn:hover {
+  background-color: #333;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
+
+.titulo-main{
+  text-decoration: none;
+  color: #999;
+}
