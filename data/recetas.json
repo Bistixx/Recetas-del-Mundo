@@ -454,5 +454,187 @@
     "Enfriar 2 horas en nevera.",
     "Espolvorear azúcar y caramelizar con soplete antes de servir."
   ]
-}
+},
+
+  {
+    "nombre": "Feijoada",
+    "duracion": "3 horas",
+    "porciones": "6",
+    "pais": "Brasil",
+    "tipo": "normal",
+    "momento": "Almuerzo",
+    "ingredientes": {
+      "frijoles negros": "500 g",
+      "carne de cerdo": "300 g",
+      "chorizo": "200 g",
+      "cebolla": "1 grande",
+      "ajo": "4 dientes",
+      "hoja de laurel": "2"
+    },
+    "cantidad": {
+      "frijoles negros": "500 g",
+      "carne de cerdo": "300 g",
+      "chorizo": "200 g"
+    },
+    "paso_a_paso": [
+      "Remojar los frijoles toda la noche",
+      "Cocinar las carnes por separado",
+      "Dorar cebolla y ajo",
+      "Mezclar todo y cocinar a fuego lento 2 horas"
+    ]
+  },
+
+  {
+    "nombre": "Moussaka",
+    "duracion": "1.5 horas",
+    "porciones": "4",
+    "pais": "Grecia",
+    "tipo": "normal",
+    "momento": "Cena",
+    "ingredientes": {
+      "berenjena": "2 grandes",
+      "carne molida": "400 g",
+      "tomate": "3",
+      "cebolla": "1",
+      "salsa bechamel": "2 tazas"
+    },
+    "cantidad": {
+      "berenjena": "2 unidades",
+      "carne molida": "400 g"
+    },
+    "paso_a_paso": [
+      "Cortar y salar las berenjenas",
+      "Preparar el relleno de carne",
+      "Armar en capas",
+      "Hornear a 180°C por 45 min"
+    ]
+  },
+
+  {
+    "nombre": "Pad Thai Vegano",
+    "duracion": "30 min",
+    "porciones": "2",
+    "pais": "Tailandia",
+    "tipo": "vegana",
+    "momento": "Almuerzo/Cena",
+    "ingredientes": {
+      "fideos de arroz": "200 g",
+      "tofu": "150 g",
+      "brotes de soja": "1 taza",
+      "maní": "1/4 taza",
+      "salsa tamarindo": "3 cucharadas"
+    },
+    "cantidad": {
+      "fideos de arroz": "200 g",
+      "tofu": "150 g"
+    },
+    "paso_a_paso": [
+      "Hidratar los fideos",
+      "Dorar el tofu",
+      "Saltear todo junto",
+      "Servir con maní triturado"
+    ]
+  },
+
+  {
+    "nombre": "Baklava",
+    "duracion": "1.5 horas",
+    "porciones": "12",
+    "pais": "Turquía",
+    "tipo": "vegetariana",
+    "momento": "Postre",
+    "ingredientes": {
+      "hojaldre filo": "1 paquete",
+      "nueces": "2 tazas",
+      "mantequilla": "200 g",
+      "miel": "1 taza"
+    },
+    "cantidad": {
+      "hojaldre filo": "500 g",
+      "nueces": "2 tazas"
+    },
+    "paso_a_paso": [
+      "Triturar las nueces",
+      "Armar capas de hojaldre y nueces",
+      "Hornear a 160°C por 45 min",
+      "Bañar con miel caliente"
+    ]
+  },
+
+  {
+    "nombre": "Chili Sin Carne",
+    "duracion": "45 min",
+    "porciones": "4",
+    "pais": "México",
+    "tipo": "vegana",
+    "momento": "Cena",
+    "ingredientes": {
+      "frijoles": "2 latas",
+      "soja texturizada": "1 taza",
+      "tomate": "4",
+      "chile": "2",
+      "comino": "1 cucharadita"
+    },
+    "cantidad": {
+      "frijoles": "800 g",
+      "soja texturizada": "100 g"
+    },
+    "paso_a_paso": [
+      "Hidratar la soja",
+      "Saltear con especias",
+      "Añadir tomates y frijoles",
+      "Cocinar 30 min a fuego lento"
+    ]
+  },
+
+  {
+    "nombre": "Pavlova",
+    "duracion": "2 horas",
+    "porciones": "6",
+    "pais": "Australia",
+    "tipo": "vegetariana",
+    "momento": "Postre",
+    "ingredientes": {
+      "claras de huevo": "6",
+      "azúcar": "300 g",
+      "crema batida": "2 tazas",
+      "frutas frescas": "2 tazas"
+    },
+    "cantidad": {
+      "claras de huevo": "6 unidades",
+      "azúcar": "300 g"
+    },
+    "paso_a_paso": [
+      "Batir claras a punto nieve",
+      "Hornear a 120°C por 1.5 horas",
+      "Enfriar completamente",
+      "Decorar con crema y frutas"
+    ]
+  },
+
+  {
+    "nombre": "Dhal Tadka",
+    "duracion": "40 min",
+    "porciones": "4",
+    "pais": "India",
+    "tipo": "vegana",
+    "momento": "Almuerzo/Cena",
+    "ingredientes": {
+      "lentejas rojas": "1 taza",
+      "cebolla": "1",
+      "jengibre": "2 cm",
+      "leche de coco": "1/2 taza",
+      "curry": "2 cucharaditas"
+    },
+    "cantidad": {
+      "lentejas rojas": "200 g",
+      "leche de coco": "120 ml"
+    },
+    "paso_a_paso": [
+      "Cocinar lentejas hasta blandas",
+      "Preparar sofrito de especias",
+      "Mezclar todo y cocinar 15 min",
+      "Servir con cilantro fresco"
+    ]
+  }
 ]
