@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .buscador-filtros {
   background-color: #343a40;
   padding: 1.5rem 0;
@@ -47,6 +48,108 @@
     max-width: 100%;
     width: 100%;
   }
+}
+
+.row.row-cols-1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.row.row-cols-1 .col {
+  display: block;
+  transition: all 0.3s ease;
+  flex: 0 0 calc(33.333% - 1.5rem);
+  max-width: calc(33.333% - 1.5rem);
+}
+@media (max-width: 992px) {
+  .row.row-cols-1 .col {
+    flex: 0 0 calc(50% - 1.5rem);
+    max-width: calc(50% - 1.5rem);
+  }
+}
+@media (max-width: 576px) {
+  .row.row-cols-1 .col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+.card {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contador-resultados {
+  text-align: center;
+  margin: 1rem 0;
+  font-weight: bold;
+  color: #6c757d;
+}
+
+/* Estilos existentes para las recetas (asumiendo estos estilos basados en la imagen) */
+.recipe-card {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+.recipe-card h3 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+.recipe-card p {
+  color: #7f8c8d;
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+}
+.recipe-card a {
+  color: #e74c3c;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+.recipe-card a:hover {
+  color: #c0392b;
+  text-decoration: underline;
+}
+
+/* Estilos para el botón de carga */
+.pagination-container {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.load-more-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.load-more-btn:hover {
+  background-color: #c0392b;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.load-more-btn:active {
+  transform: translateY(0);
+}
+.load-more-btn::after {
+  content: "→";
+  transition: transform 0.3s ease;
+}
+.load-more-btn:hover::after {
+  transform: translateX(3px);
 }
 
 body {

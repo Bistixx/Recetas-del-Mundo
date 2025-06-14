@@ -33,42 +33,56 @@ document.querySelectorAll('.dropdown-item').forEach(item => {
 
 //BARRA DE BUSQUEDA INDEX
 document.addEventListener("DOMContentLoaded", function() {
-  // 1. Elementos del DOM
   const buscador = document.getElementById("buscador");
   const btnBuscar = document.getElementById("btn-buscar");
   const filtroPais = document.querySelector(".filtro-pais");
   const filtroTipo = document.querySelector(".filtro-tipo");
-  const cards = document.querySelectorAll(".card");
+  const recetasContainer = document.querySelector(".row.row-cols-1"); // Contenedor de recetas
 
-  // 2. Función de filtrado unificada
-  function aplicarFiltros() {
+  // Función para filtrar y ordenar recetas
+  function filtrarYOrdenarRecetas() {
     const textoBusqueda = buscador.value.toLowerCase();
-    const pais = filtroPais.value.toLowerCase();
-    const tipo = filtroTipo.value.toLowerCase();
+    const paisSeleccionado = filtroPais.value.toLowerCase();
+    const tipoSeleccionado = filtroTipo.value.toLowerCase();
 
-    cards.forEach(card => {
-      const titulo = card.querySelector(".card-title").textContent.toLowerCase();
-      const descripcion = card.querySelector(".card-text").textContent.toLowerCase();
-      
-      // Lógica combinada
-      const muestraCard = 
-        (titulo.includes(textoBusqueda) || descripcion.includes(textoBusqueda)) &&
-        (pais.includes("todos") || descripcion.includes(pais)) &&
-        (tipo.includes("todos") || descripcion.includes(tipo));
+    // Obtener todas las cards de recetas
+    const cards = Array.from(document.querySelectorAll(".col"));
+    
+    // Filtrar y ordenar
+    const recetasFiltradas = cards
+      .filter(card => {
+        const titulo = card.querySelector(".card-title").textContent.toLowerCase();
+        const descripcion = card.querySelector(".card-text").textContent.toLowerCase();
+        
+        const coincideBusqueda = titulo.includes(textoBusqueda) || 
+                                descripcion.includes(textoBusqueda);
+        const coincidePais = paisSeleccionado === "🌍 todos los países" || 
+                           descripcion.includes(paisSeleccionado);
+        const coincideTipo = tipoSeleccionado === "🍽️ todos los tipos" || 
+                           descripcion.includes(tipoSeleccionado);
 
-      card.style.display = muestraCard ? "block" : "none";
+        return coincideBusqueda && coincidePais && coincideTipo;
+      })
+      .sort((a, b) => {
+        // Ordenar alfabéticamente por título
+        const tituloA = a.querySelector(".card-title").textContent.toLowerCase();
+        const tituloB = b.querySelector(".card-title").textContent.toLowerCase();
+        return tituloA.localeCompare(tituloB);
+      });
+
+    // Ocultar todas las cards primero
+    cards.forEach(card => card.style.display = "none");
+    
+    // Mostrar solo las filtradas en orden
+    recetasFiltradas.forEach((card, index) => {
+      card.style.display = "block";
+      card.style.order = index; // Asegurar orden correcto
     });
   }
 
-  // 3. Eventos
-  buscador.addEventListener("input", aplicarFiltros); // Al escribir
-  btnBuscar.addEventListener("click", aplicarFiltros); // Al clickear "Buscar"
-  filtroPais.addEventListener("change", aplicarFiltros); // Al cambiar país
-  filtroTipo.addEventListener("change", aplicarFiltros); // Al cambiar tipo
-
-  // 4. Debugging inicial
-  console.log("Elementos cargados:", {
-    buscador, btnBuscar, filtroPais, filtroTipo, 
-    totalCards: cards.length
+  // Event listeners
+  [buscador, btnBuscar, filtroPais, filtroTipo].forEach(element => {
+    element.addEventListener("input", filtrarYOrdenarRecetas);
+    element.addEventListener("change", filtrarYOrdenarRecetas);
   });
 });
