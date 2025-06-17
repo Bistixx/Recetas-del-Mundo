@@ -29,8 +29,6 @@ document.querySelectorAll('.dropdown-item').forEach(item => {
   });
 });
 
-
-
 //BARRA DE BUSQUEDA INDEX
 document.addEventListener("DOMContentLoaded", function() {
   const buscador = document.getElementById("buscador");
@@ -86,3 +84,4 @@ document.addEventListener("DOMContentLoaded", function() {
     element.addEventListener("change", filtrarYOrdenarRecetas);
   });
 });
+
