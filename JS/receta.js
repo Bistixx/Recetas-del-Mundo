@@ -32,5 +32,5 @@ document.addEventListener("DOMContentLoaded", async () => {
 fetch("recetas.json")
   .then((res) => res.json())
   .then((data) => {
-    console.log(data); // acá tenés acceso al array de recetas
+    console.log(data);
   });
