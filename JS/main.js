@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const response = await fetch("data/recetas.json");
   const recetas = await response.json();
 
-  recetas.forEach(receta => {
+  recetas.forEach((receta) => {
     const card = document.createElement("div");
     card.className = "col-md-4 mb-4";
     card.innerHTML = `
@@ -21,8 +21,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     lista.appendChild(card);
   });
 });
-document.querySelectorAll('.dropdown-item').forEach(item => {
-  item.addEventListener('click', (e) => {
+document.querySelectorAll(".dropdown-item").forEach((item) => {
+  item.addEventListener("click", (e) => {
     const filtro = e.target.textContent;
     console.log(`Filtrar por: ${filtro}`);
     // Aquí puedes implementar la lógica de filtrado según tu JSON
@@ -30,7 +30,7 @@ document.querySelectorAll('.dropdown-item').forEach(item => {
 });
 
 //BARRA DE BUSQUEDA INDEX
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   const buscador = document.getElementById("buscador");
   const btnBuscar = document.getElementById("btn-buscar");
   const filtroPais = document.querySelector(".filtro-pais");
@@ -45,32 +45,42 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Obtener todas las cards de recetas
     const cards = Array.from(document.querySelectorAll(".col"));
-    
+
     // Filtrar y ordenar
     const recetasFiltradas = cards
-      .filter(card => {
-        const titulo = card.querySelector(".card-title").textContent.toLowerCase();
-        const descripcion = card.querySelector(".card-text").textContent.toLowerCase();
-        
-        const coincideBusqueda = titulo.includes(textoBusqueda) || 
-                                descripcion.includes(textoBusqueda);
-        const coincidePais = paisSeleccionado === "🌍 todos los países" || 
-                           descripcion.includes(paisSeleccionado);
-        const coincideTipo = tipoSeleccionado === "🍽️ todos los tipos" || 
-                           descripcion.includes(tipoSeleccionado);
+      .filter((card) => {
+        const titulo = card
+          .querySelector(".card-title")
+          .textContent.toLowerCase();
+        const descripcion = card
+          .querySelector(".card-text")
+          .textContent.toLowerCase();
+
+        const coincideBusqueda =
+          titulo.includes(textoBusqueda) || descripcion.includes(textoBusqueda);
+        const coincidePais =
+          paisSeleccionado === "🌍 todos los países" ||
+          descripcion.includes(paisSeleccionado);
+        const coincideTipo =
+          tipoSeleccionado === "🍽️ todos los tipos" ||
+          descripcion.includes(tipoSeleccionado);
 
         return coincideBusqueda && coincidePais && coincideTipo;
       })
       .sort((a, b) => {
         // Ordenar alfabéticamente por título
-        const tituloA = a.querySelector(".card-title").textContent.toLowerCase();
-        const tituloB = b.querySelector(".card-title").textContent.toLowerCase();
+        const tituloA = a
+          .querySelector(".card-title")
+          .textContent.toLowerCase();
+        const tituloB = b
+          .querySelector(".card-title")
+          .textContent.toLowerCase();
         return tituloA.localeCompare(tituloB);
       });
 
     // Ocultar todas las cards primero
-    cards.forEach(card => card.style.display = "none");
-    
+    cards.forEach((card) => (card.style.display = "none"));
+
     // Mostrar solo las filtradas en orden
     recetasFiltradas.forEach((card, index) => {
       card.style.display = "block";
@@ -79,9 +89,31 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   // Event listeners
-  [buscador, btnBuscar, filtroPais, filtroTipo].forEach(element => {
+  [buscador, btnBuscar, filtroPais, filtroTipo].forEach((element) => {
     element.addEventListener("input", filtrarYOrdenarRecetas);
     element.addEventListener("change", filtrarYOrdenarRecetas);
   });
 });
 
+//TRANSICION
+document.addEventListener("DOMContentLoaded", () => {
+  // Selecciona todos los enlaces internos a recetas
+  const enlacesRecetas = document.querySelectorAll('a[href^="./RECETAS/"]');
+
+  enlacesRecetas.forEach((enlace) => {
+    enlace.addEventListener("click", (e) => {
+      e.preventDefault();
+      const urlDestino = enlace.href;
+
+      // Verificamos compatibilidad
+      if (document.startViewTransition) {
+        document.startViewTransition(() => {
+          window.location.href = urlDestino;
+        });
+      } else {
+        // Fallback sin animación
+        window.location.href = urlDestino;
+      }
+    });
+  });
+});

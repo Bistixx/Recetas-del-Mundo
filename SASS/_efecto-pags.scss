@@ -1,0 +1,17 @@
+::view-transition-old(root) {
+  animation: slide-out-to-left 0.5s ease forwards;
+}
+
+::view-transition-new(root) {
+  animation: slide-in-from-right 0.5s ease forwards;
+}
+
+@keyframes slide-out-to-left {
+  from { transform: translateX(0); }
+  to { transform: translateX(-100%); }
+}
+
+@keyframes slide-in-from-right {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
