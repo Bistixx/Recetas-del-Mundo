@@ -447,5 +447,365 @@
       "Escurrir la pasta y mezclar con el tocino y la mezcla de huevos y queso fuera del fuego.",
       "Servir inmediatamente con pimienta al gusto."
     ]
+  },
+  {
+    "nombre": "Shakshuka",
+    "duracion": "30 minutos",
+    "porciones": "2 personas",
+    "pais": "Israel",
+    "tipo": "Plato Principal",
+    "momento": "Desayuno",
+    "imagen": "img/shakshuka.jpg",
+    "ingredientes": ["Huevos", "Tomate", "Pimiento", "Cebolla", "Ajo", "Comino", "Pimentón", "Aceite", "Sal", "Pimienta"],
+    "cantidad": ["2 unidades", "400 g", "1 unidad", "1 unidad", "2 dientes", "1 cucharadita", "1 cucharadita", "2 cucharadas", "Al gusto", "Al gusto"],
+    "paso_a_paso": [
+      "Calentar aceite en sartén y sofreír cebolla, ajo y pimiento.",
+      "Agregar tomate triturado y especias, cocinar 10 minutos.",
+      "Hacer huecos y romper los huevos dentro.",
+      "Tapar y cocinar hasta que los huevos estén a tu gusto.",
+      "Servir caliente con pan."
+    ]
+  },
+  {
+    "nombre": "Falafel con Hummus",
+    "duracion": "50 minutos",
+    "porciones": "4 personas",
+    "pais": "Líbano",
+    "tipo": "Plato Principal",
+    "momento": "Almuerzo",
+    "imagen": "img/falafel.jpg",
+    "ingredientes": ["Garbanzos", "Cebolla", "Ajo", "Perejil", "Comino", "Cilantro", "Aceite", "Sal", "Pimienta", "Tahini"],
+    "cantidad": ["250 g", "1 unidad", "2 dientes", "1 manojo", "1 cucharadita", "1 cucharadita", "Suficiente", "Al gusto", "Al gusto", "2 cucharadas"],
+    "paso_a_paso": [
+      "Remojar garbanzos toda la noche y triturarlos.",
+      "Mezclar con cebolla, ajo, perejil y especias.",
+      "Formar bolitas y freír en aceite caliente hasta dorar.",
+      "Servir con hummus y pan pita.",
+      "Decorar con cilantro fresco."
+    ]
+  },
+  {
+    "nombre": "Gnocchi al Pesto",
+    "duracion": "35 minutos",
+    "porciones": "2 personas",
+    "pais": "Italia",
+    "tipo": "Plato Principal",
+    "momento": "Almuerzo",
+    "imagen": "img/ñoqui al pesto.jpg",
+    "ingredientes": ["Ñoquis de papa", "Albahaca fresca", "Piñones", "Queso parmesano", "Ajo", "Aceite de oliva", "Sal", "Pimienta"],
+    "cantidad": ["250 g", "30 g", "20 g", "50 g", "1 diente", "3 cucharadas", "Al gusto", "Al gusto"],
+    "paso_a_paso": [
+      "Cocer los ñoquis en agua con sal hasta que floten.",
+      "Preparar el pesto triturando albahaca, piñones, ajo, parmesano y aceite.",
+      "Mezclar los ñoquis cocidos con el pesto.",
+      "Servir caliente espolvoreado con más queso.",
+      "Decorar con piñones tostados."
+    ]
+  },
+  {
+    "nombre": "Sopa Minestrone",
+    "duracion": "45 minutos",
+    "porciones": "4 personas",
+    "pais": "Italia",
+    "tipo": "Sopa",
+    "momento": "Almuerzo",
+    "imagen": "img/minestrone.jpg",
+    "ingredientes": ["Zanahoria", "Apio", "Cebolla", "Tomate", "Calabacín", "Papas", "Pasta pequeña", "Aceite de oliva", "Sal", "Pimienta"],
+    "cantidad": ["1 unidad", "1 unidad", "1 unidad", "400 g", "1 unidad", "2 unidades", "100 g", "2 cucharadas", "Al gusto", "Al gusto"],
+    "paso_a_paso": [
+      "Sofreír cebolla, zanahoria y apio en aceite.",
+      "Agregar tomates, calabacín y papas picadas.",
+      "Cubrir con agua o caldo y cocinar 20 minutos.",
+      "Añadir pasta y cocinar hasta que esté al dente.",
+      "Servir caliente con un hilo de aceite de oliva."
+    ]
+  },
+  {
+    "nombre": "Churros con Chocolate",
+    "duracion": "40 minutos",
+    "porciones": "4 personas",
+    "pais": "España",
+    "tipo": "Postre",
+    "momento": "Merienda",
+    "imagen": "img/churros chocolate.jpg",
+    "ingredientes": ["Harina", "Agua", "Aceite", "Azúcar", "Sal", "Chocolate para fundir", "Leche"],
+    "cantidad": ["250 g", "250 ml", "Suficiente para freír", "50 g", "1 pizca", "100 g", "50 ml"],
+    "paso_a_paso": [
+      "Hervir agua con sal y añadir harina para formar masa.",
+      "Formar churros con manga pastelera y freír en aceite caliente.",
+      "Espolvorear con azúcar.",
+      "Derretir chocolate con leche al baño maría.",
+      "Servir churros acompañados del chocolate caliente."
+    ]
+  },
+  {
+    "nombre": "Empanadas de Carne",
+    "duracion": "1 hora",
+    "porciones": "4 personas",
+    "pais": "Argentina",
+    "tipo": "Plato Principal",
+    "momento": "Almuerzo",
+    "imagen": "img/empanadas carne.jpg",
+    "ingredientes": ["Masa para empanadas", "Carne picada", "Cebolla", "Huevo", "Aceitunas", "Pimiento", "Aceite", "Sal", "Pimienta"],
+    "cantidad": ["12 unidades", "300 g", "1 unidad", "2 unidades", "50 g", "1 unidad", "2 cucharadas", "Al gusto", "Al gusto"],
+    "paso_a_paso": [
+      "Saltear cebolla, pimiento y carne, sazonar con sal y pimienta.",
+      "Dejar enfriar y añadir huevo duro picado y aceitunas.",
+      "Rellenar la masa con la mezcla y cerrar empanadas.",
+      "Hornear 20-25 minutos a 180°C hasta dorar.",
+      "Servir calientes."
+    ]
+  },
+  {
+    "nombre": "Tom Yum",
+    "duracion": "40 minutos",
+    "porciones": "2 personas",
+    "pais": "Tailandia",
+    "tipo": "Sopa",
+    "momento": "Cena",
+    "imagen": "img/tom yum.jpg",
+    "ingredientes": ["Caldo de pollo", "Camarones", "Hierba limón", "Hojas de lima kaffir", "Galanga", "Champiñones", "Chile", "Salsa de pescado", "Jugo de lima", "Cilantro"],
+    "cantidad": ["500 ml", "150 g", "2 ramas", "4 hojas", "2 rodajas", "100 g", "1 unidad", "1 cucharada", "2 cucharadas", "Al gusto"],
+    "paso_a_paso": [
+      "Hervir el caldo con hierba limón, hojas de lima y galanga.",
+      "Agregar camarones y champiñones, cocinar hasta que los camarones cambien de color.",
+      "Añadir chile y salsa de pescado.",
+      "Retirar del fuego y añadir jugo de lima.",
+      "Servir decorado con cilantro fresco."
+    ]
+  },
+  {
+    "nombre": "Crepes Dulces",
+    "duracion": "25 minutos",
+    "porciones": "2 personas",
+    "pais": "Francia",
+    "tipo": "Postre",
+    "momento": "Merienda",
+    "imagen": "img/crepes dulces.jpg",
+    "ingredientes": ["Harina", "Leche", "Huevos", "Azúcar", "Mantequilla", "Frutas frescas", "Chocolate o miel"],
+    "cantidad": ["125 g", "250 ml", "2 unidades", "20 g", "20 g", "Al gusto", "Al gusto"],
+    "paso_a_paso": [
+      "Mezclar harina, huevos, leche y azúcar hasta obtener masa líquida.",
+      "Calentar sartén con mantequilla y verter un poco de masa.",
+      "Cocinar por ambos lados hasta dorar.",
+      "Rellenar con frutas y chocolate o miel.",
+      "Servir caliente o tibio."
+    ]
+  },
+  {
+    "nombre": "Bakso",
+    "duracion": "1 hora",
+    "porciones": "4 personas",
+    "pais": "Indonesia",
+    "tipo": "Plato Principal",
+    "momento": "Almuerzo",
+    "imagen": "img/bakso.jpg",
+    "ingredientes": ["Carne molida", "Huevo", "Harina de tapioca", "Ajo", "Cebolla", "Caldo de res", "Fideos", "Cilantro", "Sal", "Pimienta"],
+    "cantidad": ["400 g", "1 unidad", "50 g", "2 dientes", "1 unidad", "1 litro", "200 g", "Al gusto", "Al gusto", "Al gusto"],
+    "paso_a_paso": [
+      "Mezclar carne, huevo, harina y especias y formar albóndigas.",
+      "Hervir en caldo de res hasta que floten.",
+      "Cocinar fideos aparte y colocarlos en tazón.",
+      "Agregar las albóndigas y caldo caliente.",
+      "Decorar con cilantro y servir."
+    ]
+  },
+  {
+    "nombre": "Tiramisu",
+    "duracion": "1 hora",
+    "porciones": "4 personas",
+    "pais": "Italia",
+    "tipo": "Postre",
+    "momento": "Postre",
+    "imagen": "img/tiramisu.jpg",
+    "ingredientes": ["Bizcochos de soletilla", "Café", "Queso mascarpone", "Huevos", "Azúcar", "Cacao en polvo"],
+    "cantidad": ["150 g", "150 ml", "250 g", "2 unidades", "50 g", "C/n"],
+    "paso_a_paso": [
+      "Preparar café y dejar enfriar.",
+      "Batir yemas con azúcar y mezclar con mascarpone.",
+      "Sumergir bizcochos en café y colocar en molde.",
+      "Alternar capas de bizcochos y crema.",
+      "Espolvorear cacao y refrigerar 2 horas antes de servir."
+    ]
+  },
+  {
+    "nombre": "Huevos Rancheros",
+    "duracion": "25 minutos",
+    "porciones": "2 personas",
+    "pais": "México",
+    "tipo": "Plato Principal",
+    "momento": "Desayuno",
+    "imagen": "img/huevos rancheros.jpg",
+    "ingredientes": ["Tortillas de maíz", "Huevos", "Salsa de tomate", "Frijoles negros", "Queso rallado", "Aceite", "Sal", "Pimienta"],
+    "cantidad": ["2 unidades", "2 unidades", "150 ml", "100 g", "50 g", "2 cucharadas", "Al gusto", "Al gusto"],
+    "paso_a_paso": [
+      "Calentar las tortillas en sartén.",
+      "Freír los huevos al gusto.",
+      "Calentar frijoles y salsa de tomate.",
+      "Colocar huevos sobre las tortillas y cubrir con salsa y frijoles.",
+      "Espolvorear queso rallado y servir caliente."
+    ]
+  },
+  {
+    "nombre": "Okonomiyaki",
+    "duracion": "35 minutos",
+    "porciones": "2 personas",
+    "pais": "Japón",
+    "tipo": "Plato Principal",
+    "momento": "Almuerzo",
+    "imagen": "img/okonomiyaki.jpg",
+    "ingredientes": ["Harina", "Repollo", "Huevo", "Agua", "Cebolla verde", "Salsa okonomiyaki", "Mayonesa", "Aceite"],
+    "cantidad": ["100 g", "200 g", "1 unidad", "100 ml", "2 ramas", "Al gusto", "Al gusto", "2 cucharadas"],
+    "paso_a_paso": [
+      "Mezclar harina, huevo y agua para formar la masa.",
+      "Añadir repollo picado y cebolla verde.",
+      "Calentar aceite en sartén y verter la mezcla formando un disco.",
+      "Cocinar por ambos lados hasta dorar.",
+      "Servir con salsa okonomiyaki y mayonesa por encima."
+    ]
+  },
+  {
+    "nombre": "Ratatouille",
+    "duracion": "1 hora",
+    "porciones": "4 personas",
+    "pais": "Francia",
+    "tipo": "Plato Principal",
+    "momento": "Cena",
+    "imagen": "img/ratatouille.jpg",
+    "ingredientes": ["Berenjena", "Calabacín", "Pimiento rojo", "Tomate", "Cebolla", "Ajo", "Aceite de oliva", "Tomillo", "Sal", "Pimienta"],
+    "cantidad": ["1 unidad", "1 unidad", "1 unidad", "4 unidades", "1 unidad", "2 dientes", "3 cucharadas", "1 ramita", "Al gusto", "Al gusto"],
+    "paso_a_paso": [
+      "Cortar todas las verduras en rodajas finas.",
+      "Sofreír cebolla y ajo en aceite.",
+      "Colocar las verduras en una fuente alternando colores.",
+      "Rociar con aceite, sal, pimienta y tomillo.",
+      "Hornear a 180°C durante 45 minutos y servir caliente."
+    ]
+  },
+  {
+    "nombre": "Coxinha",
+    "duracion": "1 hora",
+    "porciones": "4 personas",
+    "pais": "Brasil",
+    "tipo": "Plato Principal",
+    "momento": "Merienda",
+    "imagen": "img/coxinha.jpg",
+    "ingredientes": ["Pollo cocido", "Harina de trigo", "Caldo de pollo", "Cebolla", "Mantequilla", "Aceite para freír", "Huevo", "Pan rallado", "Sal", "Pimienta"],
+    "cantidad": ["200 g", "150 g", "200 ml", "1 unidad", "2 cucharadas", "Suficiente", "1 unidad", "100 g", "Al gusto", "Al gusto"],
+    "paso_a_paso": [
+      "Desmenuzar el pollo y mezclar con cebolla sofrita y condimentos.",
+      "Hacer una masa con harina y caldo, formar croquetas con relleno de pollo.",
+      "Pasar por huevo batido y pan rallado.",
+      "Freír en aceite caliente hasta dorar.",
+      "Servir caliente como snack o merienda."
+    ]
+  },
+  {
+    "nombre": "Pad Kra Pao",
+    "duracion": "30 minutos",
+    "porciones": "2 personas",
+    "pais": "Tailandia",
+    "tipo": "Plato Principal",
+    "momento": "Almuerzo",
+    "imagen": "img/pad kra.jpg",
+    "ingredientes": ["Carne de cerdo picada", "Ajo", "Chile", "Salsa de soja", "Salsa de pescado", "Albahaca tailandesa", "Aceite", "Arroz cocido"],
+    "cantidad": ["200 g", "2 dientes", "1 unidad", "1 cucharada", "1 cucharada", "20 g", "2 cucharadas", "150 g"],
+    "paso_a_paso": [
+      "Calentar aceite y saltear ajo y chile picado.",
+      "Agregar la carne y cocinar hasta dorar.",
+      "Añadir salsa de soja y salsa de pescado.",
+      "Incorporar albahaca tailandesa y mezclar bien.",
+      "Servir caliente sobre arroz cocido."
+    ]
+  },
+  {
+    "nombre": "Pav Bhaji",
+    "duracion": "50 minutos",
+    "porciones": "4 personas",
+    "pais": "India",
+    "tipo": "Plato Principal",
+    "momento": "Almuerzo",
+    "imagen": "img/pav bhaji.jpg",
+    "ingredientes": ["Verduras mixtas (papas, zanahoria, guisantes)", "Tomate", "Cebolla", "Mantequilla", "Especias (garam masala, chile)", "Pan pav", "Sal", "Aceite"],
+    "cantidad": ["400 g", "2 unidades", "1 unidad", "3 cucharadas", "1 cucharadita", "4 unidades", "Al gusto", "2 cucharadas"],
+    "paso_a_paso": [
+      "Hervir y triturar las verduras hasta hacer un puré.",
+      "Sofreír cebolla, tomate y especias en mantequilla y aceite.",
+      "Agregar puré de verduras y cocinar unos minutos.",
+      "Tostar el pan pav con mantequilla.",
+      "Servir el bhaji acompañado del pan."
+    ]
+  },
+  {
+    "nombre": "Scones con Mermelada y Crema",
+    "duracion": "35 minutos",
+    "porciones": "4 personas",
+    "pais": "Reino Unido",
+    "tipo": "Postre",
+    "momento": "Merienda",
+    "imagen": "img/scones.jpg",
+    "ingredientes": ["Harina", "Levadura en polvo", "Azúcar", "Mantequilla", "Leche", "Huevo", "Mermelada", "Crema batida", "Sal"],
+    "cantidad": ["250 g", "2 cucharaditas", "30 g", "50 g", "150 ml", "1 unidad", "Al gusto", "Al gusto", "1 pizca"],
+    "paso_a_paso": [
+      "Mezclar harina, levadura, azúcar y sal.",
+      "Agregar mantequilla y mezclar hasta obtener textura arenosa.",
+      "Añadir leche y huevo para formar masa.",
+      "Cortar en círculos y hornear a 200°C por 15-20 minutos.",
+      "Servir con mermelada y crema batida."
+    ]
+  },
+  {
+    "nombre": "Pierogi",
+    "duracion": "1 hora",
+    "porciones": "4 personas",
+    "pais": "Polonia",
+    "tipo": "Plato Principal",
+    "momento": "Almuerzo",
+    "imagen": "img/pierogi.jpg",
+    "ingredientes": ["Harina", "Huevo", "Agua", "Sal", "Relleno de papa y queso", "Cebolla", "Mantequilla"],
+    "cantidad": ["250 g", "1 unidad", "100 ml", "1 pizca", "200 g", "1 unidad", "2 cucharadas"],
+    "paso_a_paso": [
+      "Preparar masa mezclando harina, huevo, agua y sal.",
+      "Estirar la masa y cortar círculos.",
+      "Rellenar con mezcla de papa y queso, cerrar formando empanadillas.",
+      "Hervir en agua con sal hasta que floten.",
+      "Saltear cebolla en mantequilla y servir sobre los pierogi."
+    ]
+  },
+  {
+    "nombre": "Banoffee Pie",
+    "duracion": "1 hora 15 minutos",
+    "porciones": "6 personas",
+    "pais": "Reino Unido",
+    "tipo": "Postre",
+    "momento": "Postre",
+    "imagen": "img/banoffee pie.jpg",
+    "ingredientes": ["Base de galleta", "Mantequilla", "Plátanos", "Dulce de leche", "Crema batida", "Cacao en polvo"],
+    "cantidad": ["200 g", "50 g", "3 unidades", "200 g", "200 ml", "C/n"],
+    "paso_a_paso": [
+      "Triturar galletas y mezclar con mantequilla, colocar en molde y presionar.",
+      "Cortar plátanos y colocar sobre la base.",
+      "Cubrir con dulce de leche y refrigerar 30 minutos.",
+      "Añadir crema batida encima.",
+      "Espolvorear cacao y servir frío."
+    ]
+  },
+  {
+    "nombre": "Korean BBQ Bulgogi",
+    "duracion": "40 minutos",
+    "porciones": "2 personas",
+    "pais": "Corea del Sur",
+    "tipo": "Plato Principal",
+    "momento": "Cena",
+    "imagen": "img/Korean BBQ Bulgogi.jpg",
+    "ingredientes": ["Carne de res en láminas finas", "Salsa de soja", "Azúcar moreno", "Ajo", "Aceite de sésamo", "Cebolla", "Cebolla verde", "Pimienta negra"],
+    "cantidad": ["200 g", "2 cucharadas", "1 cucharada", "2 dientes", "1 cucharadita", "1 unidad", "1 unidad", "Al gusto"],
+    "paso_a_paso": [
+      "Marinar la carne con salsa de soja, azúcar, ajo y aceite de sésamo durante 20 minutos.",
+      "Calentar sartén y saltear la carne hasta que esté cocida.",
+      "Agregar cebolla y cebolla verde, mezclar bien.",
+      "Condimentar con pimienta negra al gusto.",
+      "Servir caliente acompañado de arroz o lechuga para envolver."
+    ]
   }
 ]
