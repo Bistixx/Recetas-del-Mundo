@@ -1,640 +1,343 @@
 [
   {
     "nombre": "Pizza Margarita",
-    "duracion": "45 min",
-    "porciones": "4 (grandes)",
+    "duracion": "30 minutos",
+    "porciones": "2 personas",
     "pais": "Italia",
-    "tipo": "Vegetariana",
-    "momento": "Cena/Almuerzo",
-    "ingredientes": {
-      "harina": "250g",
-      "agua": "100ml",
-      "levadura": "5g",
-      "tomate": "1",
-      "mozzarella": "100g"
-    },
-    "cantidad": {
-      "harina": "250g",
-      "agua": "100ml",
-      "levadura": "5g",
-      "tomate": "1",
-      "mozzarella": "100g"
-    },
+    "tipo": "Plato Principal",
+    "momento": "Almuerzo",
+    "imagen": "img/pizza margarita.jpg",
+    "ingredientes": ["Masa de pizza", "Tomate", "Mozzarella", "Albahaca"],
+    "cantidad": ["1 base", "200 g", "200 g", "Al gusto"],
     "paso_a_paso": [
-      "Precalentar el horno a 220°C.",
-      "Mezclar la harina con levadura y agua.",
-      "Amasar y dejar reposar 30 minutos.",
-      "Extender la masa y colocar ingredientes.",
-      "Hornear durante 15 minutos."
+      "Extender la masa de pizza sobre una bandeja.",
+      "Cubrir con tomate triturado.",
+      "Añadir mozzarella en trozos.",
+      "Hornear 15 min a 220°C.",
+      "Decorar con hojas de albahaca fresca."
     ]
   },
-
   {
-    "nombre": "Paella",
-    "duracion": "60 min",
+    "nombre": "Paella Española",
+    "duracion": "1 hora",
     "porciones": "4 personas",
     "pais": "España",
-    "tipo": "Normal",
-    "momento": "Cena/Almuerzo",
-    "ingredientes": {
-      "arroz": "400g",
-      "pimiento rojo": "1",
-      "pollo": "200g",
-      "mariscos": "200g",
-      "guisantes": "100g",
-      "tomate": "1",
-      "ajo": "1 diente",
-      "caldo de pollo": "al gusto",
-      "azafrán": "al gusto",
-      "aceite de oliva": "al gusto",
-      "sal": "al gusto"
-    },
-    "cantidad": {
-      "arroz": "400g",
-      "pimiento rojo": "1",
-      "pollo": "200g",
-      "mariscos": "200g",
-      "guisantes": "100g",
-      "tomate": "1",
-      "ajo": "1 diente",
-      "caldo de pollo": "al gusto",
-      "azafrán": "al gusto",
-      "aceite de oliva": "al gusto",
-      "sal": "al gusto"
-    },
+    "tipo": "Plato Principal",
+    "momento": "Almuerzo",
+    "imagen": "img/paella española.jpg",
+    "ingredientes": ["Arroz", "Pollo", "Mariscos", "Pimiento", "Azafrán"],
+    "cantidad": ["400 g", "300 g", "200 g", "1 unidad", "1 pizca"],
     "paso_a_paso": [
-      "Sofreír el ajo y el pimiento.",
-      "Agregar el pollo y luego los mariscos.",
-      "Incorporar el tomate y sofreír.",
-      "Añadir arroz, caldo, azafrán y guisantes.",
-      "Cocinar hasta que se absorba el líquido."
+      "Sofreír el pollo y los mariscos.",
+      "Añadir el pimiento en tiras.",
+      "Incorporar el arroz y el azafrán.",
+      "Cubrir con caldo y cocinar 20 minutos.",
+      "Dejar reposar 5 minutos antes de servir."
     ]
   },
-
   {
     "nombre": "Tortilla Española",
-    "duracion": "45 min",
-    "porciones": "6 (grandes)",
+    "duracion": "40 minutos",
+    "porciones": "3 personas",
     "pais": "España",
-    "tipo": "Vegetariana",
-    "momento": "Cena/Almuerzo",
-    "ingredientes": {
-      "papas": "5 medianas (aprox. 700g)",
-      "cebolla": "1 grande",
-      "huevos": "6",
-      "aceite de oliva": "aprox. 200 ml para freír",
-      "sal": "al gusto"
-    },
-    "cantidad": {
-      "papas": "5 medianas (aprox. 700g)",
-      "cebolla": "1 grande",
-      "huevos": "6",
-      "aceite de oliva": "aprox. 200 ml para freír",
-      "sal": "al gusto"
-    },
+    "tipo": "Plato Principal",
+    "momento": "Cena",
+    "imagen": "img/tortilla española.jpg",
+    "ingredientes": ["Huevos", "Papas", "Cebolla", "Aceite de oliva", "Sal"],
+    "cantidad": ["4 unidades", "3 medianas", "1 unidad", "50 ml", "Al gusto"],
     "paso_a_paso": [
-      "Pelar y cortar las papas en rodajas finas o en cubitos pequeños.",
-      "Picar la cebolla en julianas.",
-      "Freír las papas y cebolla en aceite hasta que estén blandas.",
-      "Escurrir y mezclar con huevos batidos y sal.",
-      "Cocinar la mezcla en sartén por ambos lados.",
-      "Servir caliente o a temperatura ambiente."
+      "Pelar y cortar las papas en rodajas finas.",
+      "Freír las papas y la cebolla en aceite de oliva.",
+      "Batir los huevos con sal.",
+      "Mezclar todo y cuajar en sartén a fuego medio.",
+      "Dar la vuelta y cocinar por el otro lado."
     ]
   },
-
   {
-    "nombre": "Asado",
-    "duracion": "90 min",
-    "porciones": "6-8",
+    "nombre": "Milanesa Napolitana",
+    "duracion": "50 minutos",
+    "porciones": "2 personas",
     "pais": "Argentina",
-    "tipo": "normal",
-    "momento": "Almuerzo/Cena",
-    "ingredientes": {
-      "carne de res": "2 kg",
-      "chorizo": "500 g",
-      "morcilla": "500 g",
-      "sal": "al gusto",
-      "chimichurri": "al gusto"
-    },
-    "cantidad": {
-      "carne de res": "2 kg",
-      "chorizo": "500 g",
-      "morcilla": "500 g",
-      "sal": "al gusto",
-      "chimichurri": "al gusto"
-    },
+    "tipo": "Plato Principal",
+    "momento": "Cena",
+    "imagen": "img/MilaNapolitana.jpg",
+    "ingredientes": ["Carne", "Pan rallado", "Huevo", "Queso", "Salsa de tomate"],
+    "cantidad": ["2 filetes", "100 g", "2 unidades", "100 g", "100 g"],
     "paso_a_paso": [
-      "Preparar el fuego y dejar que las brasas se formen.",
-      "Condimentar la carne con sal y chimichurri.",
-      "Asar la carne en la parrilla, comenzando por los cortes más grandes.",
-      "Dar vuelta la carne cada 20 minutos aproximadamente.",
-      "Servir la carne con el chorizo y la morcilla, acompañados de ensalada y pan."
+      "Empanar la carne con huevo y pan rallado.",
+      "Freír hasta dorar.",
+      "Cubrir con salsa de tomate.",
+      "Añadir queso encima.",
+      "Gratinar en horno hasta derretir."
     ]
   },
-
   {
-    "nombre": "Ceviche",
-    "duracion": "60-75 min",
-    "porciones": "4-6",
-    "pais": "Peru",
-    "tipo": "normal",
-    "momento": "Cena/Almuerzo",
-    "ingredientes": {
-      "pescado": "500 g",
-      "limón": "5",
-      "cebolla": "1",
-      "cilantro": "al gusto",
-      "sal": "al gusto",
-      "ají": "al gusto"
-    },
-    "cantidad": {
-      "pescado": "500 g",
-      "limón": "5",
-      "cebolla": "1",
-      "cilantro": "al gusto",
-      "sal": "al gusto",
-      "ají": "al gusto"
-    },
+    "nombre": "Guiso de Lentejas",
+    "duracion": "1 hora",
+    "porciones": "4 personas",
+    "pais": "Argentina",
+    "tipo": "Plato Principal",
+    "momento": "Almuerzo",
+    "imagen": "img/.jpg",
+    "ingredientes": ["Lentejas", "Chorizo", "Cebolla", "Zanahoria", "Papa"],
+    "cantidad": ["300 g", "1 unidad", "1 unidad", "1 unidad", "1 unidad"],
     "paso_a_paso": [
-      "Cortar el pescado en cubos y colocarlo en un tazón.",
-      "Exprimir el jugo de los limones sobre el pescado.",
-      "Agregar la cebolla cortada en juliana, el cilantro picado, la sal y el ají.",
-      "Mezclar bien y dejar marinar durante 10-15 minutos.",
-      "Servir el ceviche acompañado de camote y choclo."
+      "Rehogar la cebolla y la zanahoria.",
+      "Añadir chorizo en rodajas.",
+      "Incorporar lentejas y agua.",
+      "Agregar la papa en cubos.",
+      "Cocinar a fuego medio hasta que espese."
     ]
   },
-
   {
-    "nombre": "Bandeja Paisa",
-    "duracion": "90 min",
-    "porciones": "4-6",
+    "nombre": "Ceviche Peruano",
+    "duracion": "25 minutos",
+    "porciones": "2 personas",
+    "pais": "Perú",
+    "tipo": "Entrada",
+    "momento": "Almuerzo",
+    "imagen": "img/ceviche.jpg",
+    "ingredientes": ["Pescado blanco", "Limón", "Cebolla morada", "Ají", "Cilantro"],
+    "cantidad": ["300 g", "5 unidades", "1 unidad", "1 unidad", "Un poco"],
+    "paso_a_paso": [
+      "Cortar el pescado en cubos pequeños.",
+      "Exprimir los limones y cubrir el pescado.",
+      "Añadir cebolla en pluma y ají picado.",
+      "Dejar reposar 10 minutos.",
+      "Servir con cilantro fresco."
+    ]
+  },
+  {
+    "nombre": "Arepas Colombianas",
+    "duracion": "35 minutos",
+    "porciones": "3 personas",
     "pais": "Colombia",
-    "tipo": "normal",
-    "momento": "Almuerzo",
-    "ingredientes": {
-      "carne molida": "500 g",
-      "frijoles": "2 tazas",
-      "chorizo": "2",
-      "arepas": "2",
-      "plátano": "1",
-      "aguacate": "1",
-      "huevo": "2",
-      "sal": "al gusto"
-    },
-    "cantidad": {
-      "carne molida": "500 g",
-      "frijoles": "2 tazas",
-      "chorizo": "2",
-      "arepas": "2",
-      "plátano": "1",
-      "aguacate": "1",
-      "huevo": "2",
-      "sal": "al gusto"
-    },
+    "tipo": "Plato Principal",
+    "momento": "Desayuno",
+    "imagen": "img/arepas.jpg",
+    "ingredientes": ["Harina de maíz", "Agua", "Sal", "Queso"],
+    "cantidad": ["250 g", "200 ml", "1 pizca", "100 g"],
     "paso_a_paso": [
-      "Cocinar los frijoles en agua con sal hasta que estén tiernos.",
-      "Freír la carne molida en una sartén con sal.",
-      "En otra sartén, cocinar el chorizo y el plátano.",
-      "Freír los huevos y preparar las arepas.",
-      "Servir la bandeja con todos los ingredientes, acompañada de aguacate."
+      "Mezclar la harina de maíz con agua y sal.",
+      "Amasar hasta obtener masa suave.",
+      "Formar discos y cocinar en plancha caliente.",
+      "Abrir por la mitad y rellenar con queso."
     ]
   },
-
   {
-    "nombre": "Tacos",
-    "duracion": "30 min",
-    "porciones": "4-6",
-    "pais": "Mexico",
-    "tipo": "normal",
-    "momento": "Cena",
-    "ingredientes": {
-      "tortillas": "12",
-      "carne": "500 g",
-      "cebolla": "1",
-      "cilantro": "al gusto",
-      "limón": "2",
-      "sal": "al gusto",
-      "ají": "al gusto"
-    },
-    "cantidad": {
-      "tortillas": "12",
-      "carne": "500 g",
-      "cebolla": "1",
-      "cilantro": "al gusto",
-      "limón": "2",
-      "sal": "al gusto",
-      "ají": "al gusto"
-    },
-    "paso_a_paso": [
-      "Cocinar la carne en una sartén con sal.",
-      "Calentar las tortillas en un comal.",
-      "En cada tortilla, colocar un poco de carne y agregar la cebolla picada, el cilantro, el jugo de limón y el ají."
-    ]
-  },
-  
-  {
-    "nombre": "Sushi",
-    "duracion": "60 min",
-    "porciones": "4-6",
-    "pais": "Japon",
-    "tipo": "normal",
-    "momento": "Cena/Almuerzo",
-    "ingredientes": {
-      "arroz": "2 tazas",
-      "vinagre": "1/4 de taza",
-      "algas nori": "4",
-      "pescado": "300 g",
-      "aguacate": "1",
-      "pepino": "1",
-      "sal": "al gusto"
-    },
-    "cantidad": {
-      "arroz": "2 tazas",
-      "vinagre": "1/4 de taza",
-      "algas nori": "4",
-      "pescado": "300 g",
-      "aguacate": "1",
-      "pepino": "1",
-      "sal": "al gusto"
-    },
-    "paso_a_paso": [
-      "Cocinar el arroz y dejar enfriar.",
-      "Mezclar el vinagre con el arroz y sazonar con sal.",
-      "Colocar una hoja de alga nori sobre una esterilla de bambú.",
-      "Extender una capa de arroz sobre el alga y agregar el pescado, el aguacate y el pepino.",
-      "Enrollar el sushi y cortarlo en porciones."
-    ]
-  },
-
-  {
-  "nombre": "Milanesa Napolitana",
-  "duracion": "45 min",
-  "porciones": "4",
-  "pais": "Argentina",
-  "tipo": "normal",
-  "momento": "Almuerzo/Cena",
-  "ingredientes": {
-    "carne": "4 filetes de ternera",
-    "pan rallado": "2 tazas",
-    "huevos": "3",
-    "jamón cocido": "4 fetas",
-    "queso mozzarella": "200 g",
-    "salsa de tomate": "1 taza",
-    "orégano": "1 cucharadita",
-    "aceite": "para freír"
-  },
-  "cantidad": {
-    "carne": "4 filetes",
-    "pan rallado": "2 tazas",
-    "huevos": "3 unidades",
-    "jamón cocido": "4 fetas",
-    "queso mozzarella": "200 gramos",
-    "salsa de tomate": "1 taza",
-    "orégano": "1 cucharadita"
-  },
-  "paso_a_paso": [
-    "Empanar los filetes pasándolos por huevo batido y pan rallado.",
-    "Freír en aceite caliente hasta dorar.",
-    "Colocar en una placa para horno.",
-    "Cubrir cada milanesa con salsa de tomate, jamón y queso.",
-    "Gratinar en horno a 180°C hasta que el queso se derrita.",
-    "Espolvorear orégano al servir."
-  ]
-},
-
-{
-  "nombre": "Arepas",
-  "duracion": "30 min",
-  "porciones": "6",
-  "pais": "Colombia",
-  "tipo": "vegetariana",
-  "momento": "Desayuno/Cena",
-  "ingredientes": {
-    "harina de maíz": "2 tazas",
-    "agua": "2 tazas",
-    "sal": "1 cucharadita",
-    "mantequilla": "2 cucharadas",
-    "queso fresco": "opcional"
-  },
-  "cantidad": {
-    "harina de maíz": "2 tazas",
-    "agua": "2 tazas",
-    "sal": "1 cucharadita",
-    "mantequilla": "2 cucharadas"
-  },
-  "paso_a_paso": [
-    "Mezclar la harina con agua y sal hasta formar una masa suave.",
-    "Amasar por 5 minutos y formar bolitas.",
-    "Aplanar cada bolita para formar discos de 1 cm de grosor.",
-    "Cocinar en sartén engrasada a fuego medio hasta dorar ambos lados.",
-    "Untar con mantequilla y rellenar con queso si se desea."
-  ]
-},
-
-{
-  "nombre": "Pasta Carbonara",
-  "duracion": "25 min",
-  "porciones": "4",
-  "pais": "Italia",
-  "tipo": "normal",
-  "momento": "Cena",
-  "ingredientes": {
-    "spaghetti": "400 g",
-    "panceta": "200 g",
-    "huevos": "3 yemas",
-    "queso pecorino": "100 g",
-    "pimienta negra": "al gusto",
-    "sal": "para el agua"
-  },
-  "cantidad": {
-    "spaghetti": "400 gramos",
-    "panceta": "200 gramos",
-    "huevos": "3 yemas",
-    "queso pecorino": "100 gramos"
-  },
-  "paso_a_paso": [
-    "Cocinar la pasta al dente en agua con sal.",
-    "Dorar la panceta en sartén sin aceite.",
-    "Batir las yemas con queso rallado y pimienta.",
-    "Escurrir la pasta y mezclar inmediatamente con la panceta.",
-    "Fuera del fuego, incorporar la mezcla de huevo revolviendo rápido.",
-    "Servir con más queso y pimienta."
-  ]
-},
-
-{
-  "nombre": "Ramen de Cerdo",
-  "duracion": "2 horas",
-  "porciones": "4",
-  "pais": "Japon",
-  "tipo": "normal",
-  "momento": "Almuerzo/Cena",
-  "ingredientes": {
-    "fideos ramen": "400 g",
-    "lomo de cerdo": "500 g",
-    "huevos": "4",
-    "caldo de pollo": "1.5 litros",
-    "salsa de soja": "1/2 taza",
-    "jengibre": "3 rodajas",
-    "ajo": "2 dientes",
-    "cebollín": "1/2 taza",
-    "brotes de bambú": "1/2 taza"
-  },
-  "cantidad": {
-    "fideos ramen": "400 gramos",
-    "lomo de cerdo": "500 gramos",
-    "huevos": "4 unidades",
-    "caldo de pollo": "1.5 litros"
-  },
-  "paso_a_paso": [
-    "Cocinar el cerdo en caldo con soja, jengibre y ajo por 1.5 horas.",
-    "Hervir huevos por 7 minutos, enfriar y pelar.",
-    "Cocinar los fideos según paquete.",
-    "Colocar fideos en tazones, agregar caldo colado.",
-    "Acompañar con cerdo en rodajas, huevos partidos y vegetales."
-  ]
-},
-
-{
-  "nombre": "Hamburguesa Clásica",
-  "duracion": "30 min",
-  "porciones": "4",
-  "pais": "Estados Unidos",
-  "tipo": "normal",
-  "momento": "Almuerzo/Cena",
-  "ingredientes": {
-    "carne molida": "500 g",
-    "pan para hamburguesas": "4",
-    "queso cheddar": "4 fetas",
-    "cebolla morada": "1/2",
-    "lechuga": "4 hojas",
-    "tomate": "1",
-    "salsa kétchup": "al gusto",
-    "mostaza": "al gusto"
-  },
-  "cantidad": {
-    "carne molida": "500 gramos",
-    "pan para hamburguesas": "4 unidades",
-    "queso cheddar": "4 fetas",
-    "cebolla morada": "1/2 unidad"
-  },
-  "paso_a_paso": [
-    "Formar 4 hamburguesas con la carne y sazonar.",
-    "Cocinar a la parrilla o sartén 4 min por lado.",
-    "Agregar queso los últimos 30 segundos.",
-    "Tostar ligeramente los panes.",
-    "Armar con lechuga, tomate, cebolla y salsas."
-  ]
-},
-
-{
-  "nombre": "Crème Brûlée",
-  "duracion": "3 horas (incluye enfriar)",
-  "porciones": "6",
-  "pais": "Francia",
-  "tipo": "vegetariana",
-  "momento": "Postre",
-  "ingredientes": {
-    "crema de leche": "500 ml",
-    "yemas de huevo": "6",
-    "azúcar": "100 g + extra para caramelizar",
-    "vainilla": "1 vaina",
-    "sal": "1 pizca"
-  },
-  "cantidad": {
-    "crema de leche": "500 ml",
-    "yemas de huevo": "6 unidades",
-    "azúcar": "100 gramos"
-  },
-  "paso_a_paso": [
-    "Calentar crema con vainilla hasta casi hervir.",
-    "Batir yemas con azúcar hasta claras.",
-    "Incorporar crema caliente a las yemas lentamente.",
-    "Colocar en moldes y cocinar a baño María 40 min a 150°C.",
-    "Enfriar 2 horas en nevera.",
-    "Espolvorear azúcar y caramelizar con soplete antes de servir."
-  ]
-},
-
-  {
-    "nombre": "Feijoada",
-    "duracion": "3 horas",
-    "porciones": "6",
-    "pais": "Brasil",
-    "tipo": "normal",
-    "momento": "Almuerzo",
-    "ingredientes": {
-      "frijoles negros": "500 g",
-      "carne de cerdo": "300 g",
-      "chorizo": "200 g",
-      "cebolla": "1 grande",
-      "ajo": "4 dientes",
-      "hoja de laurel": "2"
-    },
-    "cantidad": {
-      "frijoles negros": "500 g",
-      "carne de cerdo": "300 g",
-      "chorizo": "200 g"
-    },
-    "paso_a_paso": [
-      "Remojar los frijoles toda la noche",
-      "Cocinar las carnes por separado",
-      "Dorar cebolla y ajo",
-      "Mezclar todo y cocinar a fuego lento 2 horas"
-    ]
-  },
-
-  {
-    "nombre": "Moussaka",
-    "duracion": "1.5 horas",
-    "porciones": "4",
-    "pais": "Grecia",
-    "tipo": "normal",
-    "momento": "Cena",
-    "ingredientes": {
-      "berenjena": "2 grandes",
-      "carne molida": "400 g",
-      "tomate": "3",
-      "cebolla": "1",
-      "salsa bechamel": "2 tazas"
-    },
-    "cantidad": {
-      "berenjena": "2 unidades",
-      "carne molida": "400 g"
-    },
-    "paso_a_paso": [
-      "Cortar y salar las berenjenas",
-      "Preparar el relleno de carne",
-      "Armar en capas",
-      "Hornear a 180°C por 45 min"
-    ]
-  },
-
-  {
-    "nombre": "Pad Thai Vegano",
-    "duracion": "30 min",
-    "porciones": "2",
-    "pais": "Tailandia",
-    "tipo": "vegana",
-    "momento": "Almuerzo/Cena",
-    "ingredientes": {
-      "fideos de arroz": "200 g",
-      "tofu": "150 g",
-      "brotes de soja": "1 taza",
-      "maní": "1/4 taza",
-      "salsa tamarindo": "3 cucharadas"
-    },
-    "cantidad": {
-      "fideos de arroz": "200 g",
-      "tofu": "150 g"
-    },
-    "paso_a_paso": [
-      "Hidratar los fideos",
-      "Dorar el tofu",
-      "Saltear todo junto",
-      "Servir con maní triturado"
-    ]
-  },
-
-  {
-    "nombre": "Baklava",
-    "duracion": "1.5 horas",
-    "porciones": "12",
-    "pais": "Turquía",
-    "tipo": "vegetariana",
-    "momento": "Postre",
-    "ingredientes": {
-      "hojaldre filo": "1 paquete",
-      "nueces": "2 tazas",
-      "mantequilla": "200 g",
-      "miel": "1 taza"
-    },
-    "cantidad": {
-      "hojaldre filo": "500 g",
-      "nueces": "2 tazas"
-    },
-    "paso_a_paso": [
-      "Triturar las nueces",
-      "Armar capas de hojaldre y nueces",
-      "Hornear a 160°C por 45 min",
-      "Bañar con miel caliente"
-    ]
-  },
-
-  {
-    "nombre": "Chili Sin Carne",
-    "duracion": "45 min",
-    "porciones": "4",
+    "nombre": "Tacos al Pastor",
+    "duracion": "45 minutos",
+    "porciones": "3 personas",
     "pais": "México",
-    "tipo": "vegana",
+    "tipo": "Plato Principal",
     "momento": "Cena",
-    "ingredientes": {
-      "frijoles": "2 latas",
-      "soja texturizada": "1 taza",
-      "tomate": "4",
-      "chile": "2",
-      "comino": "1 cucharadita"
-    },
-    "cantidad": {
-      "frijoles": "800 g",
-      "soja texturizada": "100 g"
-    },
+    "imagen": "img/tacosPastor.jpg",
+    "ingredientes": ["Tortillas de maíz", "Carne de cerdo", "Piña", "Cebolla", "Cilantro"],
+    "cantidad": ["6 unidades", "300 g", "2 rodajas", "1 unidad", "Un poco"],
     "paso_a_paso": [
-      "Hidratar la soja",
-      "Saltear con especias",
-      "Añadir tomates y frijoles",
-      "Cocinar 30 min a fuego lento"
+      "Marinar la carne con especias.",
+      "Cocinar la carne y cortar en tiras.",
+      "Rellenar las tortillas con carne.",
+      "Agregar piña, cebolla y cilantro.",
+      "Servir calientes."
     ]
   },
-
+  {
+    "nombre": "Ramen Japonés",
+    "duracion": "1 hora",
+    "porciones": "2 personas",
+    "pais": "Japón",
+    "tipo": "Sopa",
+    "momento": "Cena",
+    "imagen": "img/ramen.jpg",
+    "ingredientes": ["Fideos ramen", "Caldo de pollo", "Huevo", "Algas", "Cerdo"],
+    "cantidad": ["200 g", "500 ml", "2 unidades", "Un poco", "150 g"],
+    "paso_a_paso": [
+      "Cocinar los fideos en agua caliente.",
+      "Preparar el caldo de pollo.",
+      "Añadir carne de cerdo en láminas.",
+      "Incorporar huevo cocido partido.",
+      "Servir con algas por encima."
+    ]
+  },
+  {
+    "nombre": "Sushi de Salmón",
+    "duracion": "50 minutos",
+    "porciones": "2 personas",
+    "pais": "Japón",
+    "tipo": "Entrada",
+    "momento": "Cena",
+    "imagen": "img/sushiSalmon.jpg",
+    "ingredientes": ["Arroz", "Salmón", "Alga nori", "Vinagre de arroz", "Sésamo"],
+    "cantidad": ["200 g", "150 g", "4 láminas", "30 ml", "Al gusto"],
+    "paso_a_paso": [
+      "Cocer el arroz y mezclar con vinagre.",
+      "Colocar arroz sobre la hoja de alga.",
+      "Añadir tiras de salmón.",
+      "Enrollar con ayuda de esterilla.",
+      "Cortar en piezas y espolvorear sésamo."
+    ]
+  },
+  {
+    "nombre": "Bibimbap",
+    "duracion": "45 minutos",
+    "porciones": "2 personas",
+    "pais": "Corea del Sur",
+    "tipo": "Plato Principal",
+    "momento": "Almuerzo",
+    "imagen": "img/bibimbap.jpg",
+    "ingredientes": ["Arroz", "Carne de res", "Zanahoria", "Espinaca", "Brotes de soja", "Huevo", "Pasta de chile (Gochujang)", "Aceite de sésamo", "Sésamo"],
+    "cantidad": ["1 taza", "150 g", "1", "100 g", "100 g", "1", "2 cucharadas", "1 cucharadita", "1 cucharadita"],
+    "paso_a_paso": [
+      "Cocer el arroz y reservar.",
+      "Saltear la carne con un poco de aceite y sazonar con salsa de soja.",
+      "Saltear las verduras por separado: zanahoria, espinaca y brotes de soja.",
+      "Freír el huevo a tu gusto.",
+      "Servir el arroz en un bol, colocar la carne y las verduras encima.",
+      "Agregar el huevo y una cucharada de pasta de chile.",
+      "Rociar con aceite de sésamo y espolvorear sésamo antes de mezclar y comer."
+    ]
+  },
+  {
+    "nombre": "Boeuf Bourguignon",
+    "duracion": "3 horas",
+    "porciones": "4 personas",
+    "pais": "Francia",
+    "tipo": "Plato Principal",
+    "momento": "Cena",
+    "imagen": "img/.jpg",
+    "ingredientes": ["Carne de res para guisar", "Vino tinto", "Zanahoria", "Cebolla", "Ajo", "Tomillo", "Laurel", "Champiñones", "Tocino", "Sal", "Pimienta", "Aceite"],
+    "cantidad": ["800 g", "500 ml", "2", "1 grande", "2 dientes", "1 ramita", "2 hojas", "200 g", "100 g", "Al gusto", "Al gusto", "2 cucharadas"],
+    "paso_a_paso": [
+      "Cortar la carne en cubos y sellarla en aceite caliente.",
+      "Añadir tocino, zanahorias, cebolla y ajo, y dorar todo junto.",
+      "Agregar vino tinto, tomillo y laurel, cubrir y cocinar a fuego lento 2 horas.",
+      "Saltear los champiñones y agregarlos al guiso antes de servir.",
+      "Sazonar con sal y pimienta al gusto."
+    ]
+  },
+  {
+    "nombre": "Butter Chicken",
+    "duracion": "1 hora",
+    "porciones": "4 personas",
+    "pais": "India",
+    "tipo": "Plato Principal",
+    "momento": "Cena",
+    "imagen": "img/.jpg",
+    "ingredientes": ["Pechuga de pollo", "Mantequilla", "Cebolla", "Tomate", "Crema de leche", "Ajo", "Jengibre", "Garam masala", "Cúrcuma", "Pimienta", "Sal", "Aceite"],
+    "cantidad": ["500 g", "50 g", "1 grande", "400 g", "100 ml", "2 dientes", "1 cucharadita", "1 cucharadita", "1/2 cucharadita", "Al gusto", "Al gusto", "2 cucharadas"],
+    "paso_a_paso": [
+      "Cortar el pollo en cubos y marinar con especias y un poco de crema.",
+      "Dorar el pollo en aceite y mantequilla y retirar.",
+      "Saltear cebolla, ajo y jengibre, añadir tomate y cocinar hasta formar salsa.",
+      "Incorporar el pollo, agregar crema y cocinar a fuego lento 15 minutos.",
+      "Servir caliente acompañado de arroz o pan naan."
+    ]
+  },
   {
     "nombre": "Pavlova",
-    "duracion": "2 horas",
-    "porciones": "6",
-    "pais": "Australia",
-    "tipo": "vegetariana",
+    "duracion": "1 hora 20 minutos",
+    "porciones": "6 personas",
+    "pais": "Australia/Nueva Zelanda",
+    "tipo": "Postre",
     "momento": "Postre",
-    "ingredientes": {
-      "claras de huevo": "6",
-      "azúcar": "300 g",
-      "crema batida": "2 tazas",
-      "frutas frescas": "2 tazas"
-    },
-    "cantidad": {
-      "claras de huevo": "6 unidades",
-      "azúcar": "300 g"
-    },
+    "imagen": "img/pavlova.jpg",
+    "ingredientes": ["Claras de huevo", "Azúcar", "Maicena", "Vinagre", "Crema batida", "Frutas frescas (kiwi, frutillas, frutos rojos)"],
+    "cantidad": ["4", "200 g", "2 cucharaditas", "1 cucharadita", "200 ml", "Al gusto"],
     "paso_a_paso": [
-      "Batir claras a punto nieve",
-      "Hornear a 120°C por 1.5 horas",
-      "Enfriar completamente",
-      "Decorar con crema y frutas"
+      "Precalentar el horno a 120°C y preparar una bandeja con papel manteca.",
+      "Batir las claras a punto de nieve, agregar azúcar gradualmente hasta formar picos firmes.",
+      "Añadir maicena y vinagre con movimientos envolventes.",
+      "Formar un círculo sobre la bandeja y hornear 1 hora.",
+      "Dejar enfriar, cubrir con crema batida y decorar con frutas frescas."
     ]
   },
-
   {
-    "nombre": "Dhal Tadka",
-    "duracion": "40 min",
-    "porciones": "4",
-    "pais": "India",
-    "tipo": "vegana",
-    "momento": "Almuerzo/Cena",
-    "ingredientes": {
-      "lentejas rojas": "1 taza",
-      "cebolla": "1",
-      "jengibre": "2 cm",
-      "leche de coco": "1/2 taza",
-      "curry": "2 cucharaditas"
-    },
-    "cantidad": {
-      "lentejas rojas": "200 g",
-      "leche de coco": "120 ml"
-    },
+    "nombre": "Baklava",
+    "duracion": "1 hora 30 minutos",
+    "porciones": "12 personas",
+    "pais": "Turquía/Oriente Medio",
+    "tipo": "Postre",
+    "momento": "Postre",
+    "imagen": "img/baklava.jpg",
+    "ingredientes": ["Masa filo", "Nueces", "Mantequilla derretida", "Azúcar", "Agua", "Miel", "Canela"],
+    "cantidad": ["250 g", "200 g", "150 g", "100 g", "100 ml", "80 ml", "1 cucharadita"],
     "paso_a_paso": [
-      "Cocinar lentejas hasta blandas",
-      "Preparar sofrito de especias",
-      "Mezclar todo y cocinar 15 min",
-      "Servir con cilantro fresco"
+      "Precalentar el horno a 180°C.",
+      "Colocar capas de masa filo en un molde, pincelando cada capa con mantequilla.",
+      "Intercalar capas de nueces picadas con canela.",
+      "Cortar en rombos y hornear 40-45 minutos hasta dorar.",
+      "Hervir agua con azúcar y miel, verter sobre el baklava caliente y dejar enfriar antes de servir."
+    ]
+  },
+  {
+    "nombre": "Bandeja Paisa",
+    "duracion": "1 hora 30 minutos",
+    "porciones": "4 personas",
+    "pais": "Colombia",
+    "tipo": "Plato Principal",
+    "momento": "Almuerzo",
+    "imagen": "img/bandeja paisa.jpg",
+    "ingredientes": ["Frijoles rojos", "Arroz", "Carne molida", "Chicharrón", "Huevo", "Chorizo", "Plátano maduro", "Aguacate", "Arepa", "Sal", "Aceite"],
+    "cantidad": ["200 g", "200 g", "200 g", "200 g", "4", "4", "2", "1", "4", "Al gusto", "2 cucharadas"],
+    "paso_a_paso": [
+      "Cocer los frijoles con sal hasta que estén tiernos.",
+      "Preparar arroz blanco y freír el chorizo y chicharrón.",
+      "Freír plátano maduro y huevos.",
+      "Servir todos los ingredientes juntos en un plato grande, acompañar con arepa y aguacate."
+    ]
+  },
+  {
+    "nombre": "Asado",
+    "duracion": "2 horas",
+    "porciones": "6 personas",
+    "pais": "Argentina",
+    "tipo": "Plato Principal",
+    "momento": "Cena",
+    "imagen": "img/asado.jpg",
+    "ingredientes": ["Costillas de res", "Sal gruesa", "Carbón o leña", "Chimichurri"],
+    "cantidad": ["2 kg", "Al gusto", "Suficiente", "Al gusto"],
+    "paso_a_paso": [
+      "Preparar la parrilla con carbón o leña hasta alcanzar buena brasa.",
+      "Salpicar las costillas con sal gruesa y colocar sobre la parrilla.",
+      "Cocinar lentamente, girando de vez en cuando hasta que estén doradas y tiernas.",
+      "Servir caliente acompañado de chimichurri."
+    ]
+  },
+  {
+    "nombre": "Feijoada",
+    "duracion": "2 horas 30 minutos",
+    "porciones": "6 personas",
+    "pais": "Brasil",
+    "tipo": "Plato Principal",
+    "momento": "Almuerzo",
+    "imagen": "img/feijoada.jpg",
+    "ingredientes": ["Frijoles negros", "Carne de cerdo (costilla, salchicha)", "Carne seca", "Cebolla", "Ajo", "Laurel", "Aceite", "Sal", "Pimienta"],
+    "cantidad": ["500 g", "300 g", "200 g", "1", "3 dientes", "2 hojas", "2 cucharadas", "Al gusto", "Al gusto"],
+    "paso_a_paso": [
+      "Remojar los frijoles negros toda la noche.",
+      "Cocer la carne de cerdo y la carne seca, reservar.",
+      "Saltear cebolla y ajo, añadir frijoles y carnes, cubrir con agua y cocinar 2 horas.",
+      "Agregar laurel, sal y pimienta al gusto.",
+      "Servir caliente acompañado de arroz y naranja."
+    ]
+  },
+  {
+    "nombre": "Crème Brûlée",
+    "duracion": "1 hora 15 minutos",
+    "porciones": 4,
+    "pais": "Francia",
+    "tipo": "Postre",
+    "momento": "Postre",
+    "imagen": "img/CremeBrulee.jpg",
+    "ingredientes": ["Yemas de huevo", "Azúcar", "Crema de leche", "Vainilla", "Azúcar para caramelizar"],
+    "cantidad": ["4", "100 g", "500 ml", "1 vaina", "2 cucharadas"],
+    "paso_a_paso": [
+      "Precalentar el horno a 150°C.",
+      "Calentar la crema con la vainilla hasta hervir ligeramente.",
+      "Batir las yemas con azúcar y agregar la crema caliente lentamente.",
+      "Verter en moldes individuales y hornear al baño María 40-45 minutos.",
+      "Dejar enfriar, espolvorear azúcar encima y caramelizar con soplete antes de servir."
     ]
   }
 ]
