@@ -2,7 +2,7 @@
 
 ## Descripción
 
-"Recetas del Mundo" es una aplicación web que permite explorar una variedad de recetas culinarias de diferentes culturas. Los usuarios pueden filtrar las recetas según su tipo (vegetariana, vegana, postre, normal) y ver los detalles de cada una.
+"Recetas del Mundo" es una aplicación web que permite explorar una variedad de recetas culinarias de diferentes culturas. Los usuarios pueden filtrar las recetas según su tipo (Tipo de Comida, Pais de Origen y Momento del Dia) y ver los detalles de cada una.
 
 ## Estructura del Proyecto
 
