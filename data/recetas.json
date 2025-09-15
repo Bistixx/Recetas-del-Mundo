@@ -78,7 +78,7 @@
     "pais": "Argentina",
     "tipo": "Plato Principal",
     "momento": "Almuerzo",
-    "imagen": "img/.jpg",
+    "imagen": "img/guisoLentejas.jpg",
     "ingredientes": ["Lentejas", "Chorizo", "Cebolla", "Zanahoria", "Papa"],
     "cantidad": ["300 g", "1 unidad", "1 unidad", "1 unidad", "1 unidad"],
     "paso_a_paso": [
@@ -113,7 +113,7 @@
     "porciones": "3 personas",
     "pais": "Colombia",
     "tipo": "Plato Principal",
-    "momento": "Desayuno",
+    "momento": "Almuerzo",
     "imagen": "img/arepas.jpg",
     "ingredientes": ["Harina de maíz", "Agua", "Sal", "Queso"],
     "cantidad": ["250 g", "200 ml", "1 pizca", "100 g"],
@@ -205,7 +205,7 @@
     "pais": "Francia",
     "tipo": "Plato Principal",
     "momento": "Cena",
-    "imagen": "img/.jpg",
+    "imagen": "img/bouef.jpg",
     "ingredientes": ["Carne de res para guisar", "Vino tinto", "Zanahoria", "Cebolla", "Ajo", "Tomillo", "Laurel", "Champiñones", "Tocino", "Sal", "Pimienta", "Aceite"],
     "cantidad": ["800 g", "500 ml", "2", "1 grande", "2 dientes", "1 ramita", "2 hojas", "200 g", "100 g", "Al gusto", "Al gusto", "2 cucharadas"],
     "paso_a_paso": [
@@ -223,7 +223,7 @@
     "pais": "India",
     "tipo": "Plato Principal",
     "momento": "Cena",
-    "imagen": "img/.jpg",
+    "imagen": "img/butterChicken.jpg",
     "ingredientes": ["Pechuga de pollo", "Mantequilla", "Cebolla", "Tomate", "Crema de leche", "Ajo", "Jengibre", "Garam masala", "Cúrcuma", "Pimienta", "Sal", "Aceite"],
     "cantidad": ["500 g", "50 g", "1 grande", "400 g", "100 ml", "2 dientes", "1 cucharadita", "1 cucharadita", "1/2 cucharadita", "Al gusto", "Al gusto", "2 cucharadas"],
     "paso_a_paso": [
@@ -238,7 +238,7 @@
     "nombre": "Pavlova",
     "duracion": "1 hora 20 minutos",
     "porciones": "6 personas",
-    "pais": "Australia/Nueva Zelanda",
+    "pais": "Australia",
     "tipo": "Postre",
     "momento": "Postre",
     "imagen": "img/pavlova.jpg",
@@ -256,7 +256,7 @@
     "nombre": "Baklava",
     "duracion": "1 hora 30 minutos",
     "porciones": "12 personas",
-    "pais": "Turquía/Oriente Medio",
+    "pais": "Turquía",
     "tipo": "Postre",
     "momento": "Postre",
     "imagen": "img/baklava.jpg",
@@ -338,6 +338,114 @@
       "Batir las yemas con azúcar y agregar la crema caliente lentamente.",
       "Verter en moldes individuales y hornear al baño María 40-45 minutos.",
       "Dejar enfriar, espolvorear azúcar encima y caramelizar con soplete antes de servir."
+    ]
+  },
+  {
+    "nombre": "Chili con Carne",
+    "duracion": "1 hora",
+    "porciones": "4 personas",
+    "pais": "México",
+    "tipo": "Plato Principal",
+    "momento": "Cena",
+    "imagen": "img/chili.jpg",
+    "ingredientes": ["Carne molida", "Frijoles rojos", "Tomate", "Cebolla", "Ajo", "Pimiento", "Comino", "Chile en polvo", "Sal", "Pimienta"],
+    "cantidad": ["500 g", "400 g", "400 g", "1 unidad", "2 dientes", "1 unidad", "1 cucharadita", "1 cucharadita", "Al gusto", "Al gusto"],
+    "paso_a_paso": [
+      "Dorar la carne molida en una olla.",
+      "Agregar cebolla, ajo y pimiento picados, y sofreír.",
+      "Incorporar tomate, frijoles y especias.",
+      "Cocinar a fuego medio-bajo 30-40 minutos.",
+      "Servir caliente acompañado de arroz o pan."
+    ]
+  },
+  {
+    "nombre": "Dhal Tadka",
+    "duracion": "40 minutos",
+    "porciones": "3 personas",
+    "pais": "India",
+    "tipo": "Plato Principal",
+    "momento": "Almuerzo",
+    "imagen": "img/dhalTadka.jpg",
+    "ingredientes": ["Lentejas amarillas", "Cebolla", "Tomate", "Ajo", "Jengibre", "Cúrcuma", "Comino", "Ghee o aceite", "Cilantro", "Sal", "Pimienta"],
+    "cantidad": ["200 g", "1 unidad", "2 unidades", "2 dientes", "1 cucharadita", "1/2 cucharadita", "1 cucharadita", "2 cucharadas", "Al gusto", "Al gusto", "Al gusto"],
+    "paso_a_paso": [
+      "Cocer las lentejas con cúrcuma hasta que estén tiernas.",
+      "Saltear cebolla, ajo y jengibre en ghee o aceite.",
+      "Agregar tomate y especias, cocinar hasta formar salsa.",
+      "Verter la salsa sobre las lentejas cocidas y mezclar.",
+      "Servir caliente con cilantro fresco."
+    ]
+  },
+  {
+    "nombre": "Hamburguesa Clásica",
+    "duracion": "30 minutos",
+    "porciones": "2 personas",
+    "pais": "Estados Unidos",
+    "tipo": "Plato Principal",
+    "momento": "Almuerzo",
+    "imagen": "img/hamburguesaClasica.jpg",
+    "ingredientes": ["Pan de hamburguesa", "Carne molida", "Queso", "Lechuga", "Tomate", "Cebolla", "Ketchup", "Mostaza", "Sal", "Pimienta"],
+    "cantidad": ["2 unidades", "250 g", "2 rebanadas", "2 hojas", "2 rodajas", "2 rodajas", "Al gusto", "Al gusto", "Al gusto", "Al gusto"],
+    "paso_a_paso": [
+      "Formar las hamburguesas con la carne molida y sazonar con sal y pimienta.",
+      "Cocinar las hamburguesas a la plancha o sartén al gusto.",
+      "Colocar queso encima para que se derrita.",
+      "Montar la hamburguesa con pan, lechuga, tomate, cebolla y salsas.",
+      "Servir caliente acompañado de papas fritas."
+    ]
+  },
+  {
+    "nombre": "Moussaka",
+    "duracion": "1 hora 20 minutos",
+    "porciones": "4 personas",
+    "pais": "Grecia",
+    "tipo": "Plato Principal",
+    "momento": "Cena",
+    "imagen": "img/moussaka.jpg",
+    "ingredientes": ["Berenjena", "Carne molida", "Cebolla", "Ajo", "Tomate", "Bechamel", "Aceite de oliva", "Sal", "Pimienta", "Canela"],
+    "cantidad": ["2 unidades", "400 g", "1 unidad", "2 dientes", "400 g", "200 ml", "3 cucharadas", "Al gusto", "Al gusto", "1/2 cucharadita"],
+    "paso_a_paso": [
+      "Cortar las berenjenas y saltearlas en aceite hasta dorar.",
+      "Cocinar la carne con cebolla, ajo, tomate y especias.",
+      "En un molde, colocar capas de berenjena y carne.",
+      "Cubrir con salsa bechamel y hornear 30-40 minutos a 180°C.",
+      "Dejar reposar 10 minutos antes de servir."
+    ]
+  },
+  {
+    "nombre": "Pad Thai",
+    "duracion": "35 minutos",
+    "porciones": "2 personas",
+    "pais": "Tailandia",
+    "tipo": "Plato Principal",
+    "momento": "Almuerzo",
+    "imagen": "img/padThai.jpg",
+    "ingredientes": ["Fideos de arroz", "Pollo o camarones", "Huevo", "Brotes de soja", "Cebolla", "Ajo", "Salsa de tamarindo", "Salsa de pescado", "Cacahuate", "Aceite", "Cilantro", "Lima"],
+    "cantidad": ["150 g", "150 g", "1 unidad", "50 g", "1 unidad", "2 dientes", "2 cucharadas", "1 cucharada", "Al gusto", "2 cucharadas", "Al gusto", "1 unidad"],
+    "paso_a_paso": [
+      "Cocer los fideos de arroz y reservar.",
+      "Saltear ajo y cebolla en aceite, agregar pollo o camarones y cocinar.",
+      "Añadir los fideos y las salsas, mezclar bien.",
+      "Incorporar huevo y brotes de soja, saltear ligeramente.",
+      "Servir decorado con cacahuate, cilantro y un gajo de lima."
+    ]
+  },
+  {
+    "nombre": "Pasta Carbonara",
+    "duracion": "25 minutos",
+    "porciones": "2 personas",
+    "pais": "Italia",
+    "tipo": "Plato Principal",
+    "momento": "Almuerzo",
+    "imagen": "img/pastaCarbonara.jpg",
+    "ingredientes": ["Pasta (espagueti)", "Tocino o panceta", "Huevos", "Queso parmesano", "Ajo", "Sal", "Pimienta", "Aceite de oliva"],
+    "cantidad": ["200 g", "100 g", "2 unidades", "50 g", "1 diente", "Al gusto", "Al gusto", "1 cucharada"],
+    "paso_a_paso": [
+      "Cocer la pasta en agua con sal hasta que esté al dente.",
+      "Saltear tocino con ajo en aceite hasta dorar.",
+      "Batir huevos con queso parmesano.",
+      "Escurrir la pasta y mezclar con el tocino y la mezcla de huevos y queso fuera del fuego.",
+      "Servir inmediatamente con pimienta al gusto."
     ]
   }
 ]
