@@ -43,6 +43,7 @@
       <div class="col-md-3">
         <input id="buscador" type="text" class="form-control" placeholder="Buscar receta...">
       </div>
+      <button id="btn-sugerencias">Ir a sugerencias</button>
     </div>
 
     <!-- LISTADO DE RECETAS -->
@@ -51,6 +52,30 @@
     <!-- VISTA DETALLE -->
     <div id="detalleReceta" class="d-none"></div>
   </main>
+
+  <!-- SUGERENCIAS -->
+<section id="sugerencias">
+  <h2>Sugerir nueva receta</h2>
+  <form id="form-receta">
+    <div>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre">
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+    </div>
+    <div>
+      <label for="receta">Receta sugerida:</label>
+      <textarea id="receta" name="receta" rows="3"></textarea>
+    </div>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <h2>Últimas recetas sugeridas</h2>
+  <ul id="lista-sugerencias"></ul>
+</section>
+
 
   <!-- FOOTER -->
   <footer class="bg-dark text-white text-center py-3 mt-5">

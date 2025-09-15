@@ -197,3 +197,99 @@ footer {
     margin: 8px 0;
   }
 }
+
+/* ---- Sección de sugerencias ---- */
+#sugerencias {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#sugerencias h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+/* ---- Formulario ---- */
+#form-receta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+#form-receta label {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+  display: block;
+}
+
+#form-receta input,
+#form-receta textarea,
+#form-receta button {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+#form-receta textarea {
+  grid-column: span 2; /* ocupa todo el ancho */
+  resize: none;
+}
+
+#form-receta button {
+  grid-column: span 2;
+  background: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#form-receta button:hover {
+  background: #45a049;
+}
+
+/* ---- Lista de sugerencias ---- */
+#lista-sugerencias {
+  display: grid;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+#lista-sugerencias li {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+#lista-sugerencias li strong {
+  color: #4caf50;
+}
+
+/* ---- Botón para ir a sugerencias ---- */
+#btn-sugerencias {
+  padding: 0.6rem 1rem;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #4caf50;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#btn-sugerencias:hover {
+  background: #45a049;
+}

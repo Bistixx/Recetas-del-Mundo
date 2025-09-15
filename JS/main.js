@@ -117,3 +117,106 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+
+//FORMULARIO CONTACTO
+// 1. Precarga de valores
+function precargarFormulario() {
+  document.getElementById("nombre").value = "Invitado";
+  document.getElementById("email").value = "usuario@ejemplo.com";
+  document.getElementById("receta").value = "Ejemplo: Brownie vegano sin gluten";
+}
+
+// 2. Ejecutar precarga cuando arranca la app
+precargarFormulario();
+
+// 3. Validación y feedback con SweetAlert2
+document.getElementById("form-receta").addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  const nombre = document.getElementById("nombre").value;
+  const email = document.getElementById("email").value;
+  const receta = document.getElementById("receta").value;
+
+  if (!nombre || !email || !receta) {
+    Swal.fire({
+      icon: "error",
+      title: "Faltan datos",
+      text: "Por favor, completa todos los campos"
+    });
+    return;
+  }
+
+  Swal.fire({
+    icon: "success",
+    title: "¡Gracias!",
+    text: `Tu receta fue enviada correctamente, ${nombre}`
+  });
+
+  e.target.reset();
+  precargarFormulario();
+});
+
+// ---- FUNCIONES ----
+
+// Guarda en localStorage
+function guardarSugerencia(sugerencia) {
+  const prev = JSON.parse(localStorage.getItem("sugerencias")) || [];
+  prev.push(sugerencia);
+  localStorage.setItem("sugerencias", JSON.stringify(prev));
+}
+
+// Renderiza la lista de sugerencias guardadas
+function renderSugerencias() {
+  const lista = document.getElementById("lista-sugerencias");
+  const sugerencias = JSON.parse(localStorage.getItem("sugerencias")) || [];
+
+  lista.innerHTML = "";
+
+  if (sugerencias.length === 0) {
+    lista.innerHTML = "<li>No hay sugerencias todavía.</li>";
+    return;
+  }
+
+  sugerencias.forEach(s => {
+    const li = document.createElement("li");
+    li.innerHTML = `<strong>${s.nombre}</strong> (${s.email}) sugirió: ${s.receta}`;
+    lista.appendChild(li);
+  });
+}
+
+// ---- EVENTOS ----
+document.getElementById("form-receta").addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  const nombre = document.getElementById("nombre").value;
+  const email = document.getElementById("email").value;
+  const receta = document.getElementById("receta").value;
+
+  if (!nombre || !email || !receta) {
+    Swal.fire({
+      icon: "error",
+      title: "Faltan datos",
+      text: "Por favor, completa todos los campos"
+    });
+    return;
+  }
+
+  const nueva = { nombre, email, receta };
+  guardarSugerencia(nueva);
+
+  Swal.fire({
+    icon: "success",
+    title: "¡Gracias!",
+    text: `Tu receta fue enviada correctamente, ${nombre}`
+  });
+
+  e.target.reset();
+  precargarFormulario();
+  renderSugerencias(); // 🔑 actualizar lista al enviar
+});
+
+// ---- INICIO ----
+precargarFormulario();
+renderSugerencias(); // 🔑 mostrar sugerencias guardadas al entrar
+

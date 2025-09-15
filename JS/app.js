@@ -136,3 +136,16 @@ function verDetalle(nombre) {
 function volver() {
   mostrarRecetas(recetasFiltradas);
 }
+
+// ====== BOTÓN IR A SUGERENCIAS ======
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.getElementById("btn-sugerencias");
+  const destino = document.getElementById("sugerencias");
+
+  btn.addEventListener("click", () => {
+    destino.scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
+  });
+});
